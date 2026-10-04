@@ -62,13 +62,12 @@ export default function BlogIndexPage() {
         {featured && (
           <div className="my-12">
             <div className="relative rounded-3xl overflow-hidden bg-surface border border-border hover:border-primary/50 transition-all duration-300 shadow-card group grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-6 sm:p-8 lg:p-10">
-              <div className="lg:col-span-6 rounded-2xl overflow-hidden border border-border bg-background">
+              <div className="lg:col-span-6 rounded-2xl overflow-hidden border border-border bg-background aspect-video relative">
                 <Image
                   src={featured.image}
                   alt={featured.title}
-                  width={600}
-                  height={340}
-                  className="w-full h-auto object-cover group-hover:scale-102 transition-transform duration-500"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
@@ -119,13 +118,12 @@ export default function BlogIndexPage() {
               className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-card group"
             >
               <div>
-                <div className="relative border-b border-border bg-background">
+                <div className="relative border-b border-border bg-background aspect-video overflow-hidden">
                   <Image
                     src={post.image}
                     alt={post.title}
-                    width={600}
-                    height={340}
-                    className="w-full h-auto object-cover group-hover:scale-102 transition-transform duration-500"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 

@@ -209,14 +209,13 @@ export default function BlogArticleLayout({ article }) {
         </header>
 
         {/* Featured Visual */}
-        <div className="my-8 rounded-2xl overflow-hidden border border-border bg-surface shadow-card">
+        <div className="my-8 rounded-2xl overflow-hidden border border-border bg-surface shadow-card relative aspect-video w-full">
           <Image
             src={article.image}
             alt={article.title}
-            width={800}
-            height={450}
+            fill
             priority
-            className="w-full h-auto object-cover"
+            className="object-cover"
           />
         </div>
 
