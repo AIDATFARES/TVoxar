@@ -51,12 +51,12 @@ Next-generation, high-performance IPTV website built from scratch for **TVoxar I
 
 ### Blog Tutorials & Articles
 - `/blog` - Blog archive with category navigation and featured guides
-- `/blog/best-iptv-players-2026` - The 7 best IPTV players in 2026
-- `/blog/how-to-fix-iptv-buffering-freezing` - 8 proven troubleshooting steps for zero buffering
-- `/blog/iptv-smarters-pro-complete-setup-guide` - Smarters Pro Xtream Codes API guide
-- `/blog/tivimate-premium-features-setup` - TiviMate quad multi-view and EPG guide
-- `/blog/smart-tv-iptv-apps-comparison` - IBO Player vs Smart IPTV on Samsung/LG
-- `/blog/best-vpn-for-iptv-streaming` - VPN optimization against ISP throttling
+- `/blog/best-iptv-players-guide` - The 7 best IPTV players in 2026
+- `/blog/fix-iptv-buffering-freezing-guide` - 8 proven troubleshooting steps for zero buffering
+- `/blog/iptv-smarters-pro-setup-guide` - Smarters Pro Xtream Codes API guide
+- `/blog/tivimate-iptv-player-setup-guide` - TiviMate quad multi-view and EPG guide
+- `/blog/best-smart-tv-iptv-apps-guide` - IBO Player vs Smart IPTV on Samsung/LG
+- `/blog/best-vpn-for-iptv-streaming-guide` - VPN optimization against ISP throttling
 
 ### Legal Pages
 - `/privacy-policy` - Privacy Policy (zero data selling commitment)

@@ -46,7 +46,7 @@ export default function RefundPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
               <li>Your refund request must be formally submitted within 7 calendar days of your initial order date.</li>
-              <li>You must have contacted our customer care team to attempt troubleshooting (e.g. testing <Link href="/blog/best-iptv-players-2026" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">recommended IPTV player apps</Link>, checking credentials, or reviewing our <Link href="/installation" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">step-by-step setup guides</Link>).</li>
+              <li>You must have contacted our customer care team to attempt troubleshooting (e.g. testing <Link href="/blog/best-iptv-players-guide" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">recommended IPTV player apps</Link>, checking credentials, or reviewing our <Link href="/installation" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">step-by-step setup guides</Link>).</li>
               <li>You must provide your order transaction ID and registered email address.</li>
             </ul>
           </section>
@@ -58,7 +58,7 @@ export default function RefundPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
               <li>Requests submitted after the 7-day satisfaction window has expired.</li>
-              <li>Issues caused purely by insufficient subscriber broadband speed (under 15 Mbps) or unstable local Wi-Fi networks where the subscriber declines to connect via Ethernet. See our <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">guide on fixing stream buffering</Link>.</li>
+              <li>Issues caused purely by insufficient subscriber broadband speed (under 15 Mbps) or unstable local Wi-Fi networks where the subscriber declines to connect via Ethernet. See our <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">guide on fixing stream buffering</Link>.</li>
               <li>Simultaneous stream violations (using more devices at once than permitted; explore our multi-device options in <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">TVoxar pricing plans</Link>).</li>
               <li>Temporary maintenance on a single specific third-party sports channel while thousands of other <Link href="/channels" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">international live channels</Link> remain fully operational.</li>
             </ul>

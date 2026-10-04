@@ -21,7 +21,7 @@ export default function FeaturesPage() {
       description: (
         <span>
           Traditional IPTV streams often stutter when millions of viewers tune into the same live football fixture or PPV fight. TVoxar IPTV solves this with our proprietary Anti-Freeze 9.3 load-balancing architecture, routing video packets across redundant Tier-1 edge clusters to eliminate buffering entirely. Read our{" "}
-          <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+          <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-primary-light hover:underline font-semibold">
             guide on fixing IPTV buffering
           </Link>
           .
@@ -57,11 +57,11 @@ export default function FeaturesPage() {
       description: (
         <span>
           Never miss kickoff or the latest episode with a fully populated television guide. TVoxar IPTV provides automated 24-hour EPG updates with complete show descriptions, episode summaries, and catch-up metadata configured seamlessly for top players like{" "}
-          <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline">
+          <Link href="/blog/tivimate-iptv-player-setup-guide" className="text-primary-light hover:underline">
             TiviMate
           </Link>{" "}
           and{" "}
-          <Link href="/blog/iptv-smarters-pro-complete-setup-guide" className="text-primary-light hover:underline">
+          <Link href="/blog/iptv-smarters-pro-setup-guide" className="text-primary-light hover:underline">
             IPTV Smarters Pro
           </Link>
           .
@@ -115,7 +115,7 @@ export default function FeaturesPage() {
       description: (
         <span>
           Unlike rigid providers that lock your account to a single ISP address, TVoxar IPTV gives you full freedom to connect via NordVPN, ExpressVPN, Surfshark, or any trusted VPN provider to safeguard privacy and bypass ISP throttling. Discover the{" "}
-          <Link href="/blog/best-vpn-for-iptv-streaming" className="text-primary-light hover:underline font-semibold">
+          <Link href="/blog/best-vpn-for-iptv-streaming-guide" className="text-primary-light hover:underline font-semibold">
             best VPNs for IPTV streaming
           </Link>
           .

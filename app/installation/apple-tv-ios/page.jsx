@@ -49,7 +49,7 @@ export default function AppleGuidePage() {
             </Link>{" "}
             or compare apps in our{" "}
             <Link
-              href="/blog/best-iptv-players-2026"
+              href="/blog/best-iptv-players-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               best IPTV players guide

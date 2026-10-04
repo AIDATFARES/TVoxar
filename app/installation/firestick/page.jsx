@@ -124,7 +124,7 @@ export default function FirestickGuidePage() {
           </div>
           <p className="text-xs text-text-muted pt-2 border-t border-border/80">
             Still facing stream playback issues? Consult our complete{" "}
-            <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+            <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-primary-light hover:underline font-semibold">
               IPTV buffering and freezing troubleshooting guide
             </Link>{" "}
             or open a ticket with our{" "}

@@ -190,7 +190,7 @@ export default function PricingPage() {
               <h3 className="font-bold text-white text-base mb-2">7-Day Synchronized EPG Schedule</h3>
               <p className="text-xs text-text-muted leading-relaxed">
                 Clean, synchronized electronic program schedule with catch-up functionality on compatible channels and{" "}
-                <Link href="/blog/best-iptv-players-2026" className="text-primary-light hover:underline font-semibold">
+                <Link href="/blog/best-iptv-players-guide" className="text-primary-light hover:underline font-semibold">
                   top IPTV players
                 </Link>
                 .
@@ -200,7 +200,7 @@ export default function PricingPage() {
               <h3 className="font-bold text-white text-base mb-2">Full VPN-Friendly Compatibility</h3>
               <p className="text-xs text-text-muted leading-relaxed">
                 Stream safely through NordVPN, ExpressVPN, Surfshark, or any preferred provider without account restrictions. Learn more in our{" "}
-                <Link href="/blog/best-vpn-for-iptv-streaming" className="text-primary-light hover:underline font-semibold">
+                <Link href="/blog/best-vpn-for-iptv-streaming-guide" className="text-primary-light hover:underline font-semibold">
                   VPN streaming guide
                 </Link>
                 .

@@ -42,7 +42,7 @@ export default function WindowsMacGuidePage() {
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
             Stream TVoxar on your desktop workstation or laptop running Windows 10/11 or macOS using{" "}
             <Link
-              href="/blog/iptv-smarters-pro-complete-setup-guide"
+              href="/blog/iptv-smarters-pro-setup-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               IPTV Smarters Pro Desktop

@@ -86,7 +86,7 @@ export default function FaqPage() {
             </Link>
             , and{" "}
             <Link
-              href="/blog/how-to-fix-iptv-buffering-freezing"
+              href="/blog/fix-iptv-buffering-freezing-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               network optimization

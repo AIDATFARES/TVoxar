@@ -84,7 +84,7 @@ export default function InstallationHubPage() {
               <h3 className="font-bold text-white text-sm mb-1">2. Stable 15+ Mbps Internet</h3>
               <p className="text-xs text-text-muted">
                 Connect via 5GHz Wi-Fi or Ethernet cable for smooth buffer-free 4K playback. Experiencing lag? See our{" "}
-                <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+                <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-primary-light hover:underline font-semibold">
                   anti-buffering guide
                 </Link>
                 .
@@ -100,7 +100,7 @@ export default function InstallationHubPage() {
               <h3 className="font-bold text-white text-sm mb-1">3. Under 5 Minutes Setup</h3>
               <p className="text-xs text-text-muted">
                 Download your preferred IPTV player, input your credentials, and enjoy instant live streaming. Compare options in our{" "}
-                <Link href="/blog/best-iptv-players-2026" className="text-primary-light hover:underline font-semibold">
+                <Link href="/blog/best-iptv-players-guide" className="text-primary-light hover:underline font-semibold">
                   best IPTV players 2026 guide
                 </Link>
                 .

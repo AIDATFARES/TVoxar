@@ -75,7 +75,7 @@ export default function ChannelsPage() {
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
             TVoxar IPTV organizes thousands of premier global television networks into curated country and genre categories. From high-octane 60 FPS sports broadcasts to commercial-free 4K cinema and 24/7 news, every channel includes automated EPG schedule data across all{" "}
             <Link
-              href="/blog/best-iptv-players-2026"
+              href="/blog/best-iptv-players-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               compatible IPTV players
@@ -148,15 +148,15 @@ export default function ChannelsPage() {
           <h3 className="text-lg font-bold text-white">Automated Electronic Program Guide (EPG) Included with TVoxar IPTV</h3>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
             Our playlist servers refresh XMLTV guide data every 24 hours. When you connect via Xtream Codes on{" "}
-            <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline font-semibold">
+            <Link href="/blog/tivimate-iptv-player-setup-guide" className="text-primary-light hover:underline font-semibold">
               TiviMate
             </Link>
             ,{" "}
-            <Link href="/blog/iptv-smarters-pro-complete-setup-guide" className="text-primary-light hover:underline font-semibold">
+            <Link href="/blog/iptv-smarters-pro-setup-guide" className="text-primary-light hover:underline font-semibold">
               Smarters Pro
             </Link>
             , or Smart TV apps like{" "}
-            <Link href="/blog/smart-tv-iptv-apps-comparison" className="text-primary-light hover:underline font-semibold">
+            <Link href="/blog/best-smart-tv-iptv-apps-guide" className="text-primary-light hover:underline font-semibold">
               IBO Player Pro
             </Link>
             , the guide aligns automatically with your local clock. Need help? View our{" "}

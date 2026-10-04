@@ -49,7 +49,7 @@ export default function SmartTvGuidePage() {
             </Link>{" "}
             and read our{" "}
             <Link
-              href="/blog/smart-tv-iptv-apps-comparison"
+              href="/blog/best-smart-tv-iptv-apps-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               Smart TV IPTV apps comparison

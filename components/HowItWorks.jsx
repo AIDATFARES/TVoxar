@@ -38,11 +38,11 @@ export default function HowItWorks() {
       description: (
         <span>
           Open your preferred player (such as{" "}
-          <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline">
+          <Link href="/blog/tivimate-iptv-player-setup-guide" className="text-primary-light hover:underline">
             TiviMate
           </Link>{" "}
           or{" "}
-          <Link href="/blog/iptv-smarters-pro-complete-setup-guide" className="text-primary-light hover:underline">
+          <Link href="/blog/iptv-smarters-pro-setup-guide" className="text-primary-light hover:underline">
             IPTV Smarters
           </Link>
           ) following our{" "}

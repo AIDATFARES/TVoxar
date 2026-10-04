@@ -167,17 +167,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog/best-iptv-players-2026" className="hover:text-primary-light transition-colors">
+                <Link href="/blog/best-iptv-players-guide" className="hover:text-primary-light transition-colors">
                   Best IPTV Players 2026
                 </Link>
               </li>
               <li>
-                <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="hover:text-primary-light transition-colors">
+                <Link href="/blog/fix-iptv-buffering-freezing-guide" className="hover:text-primary-light transition-colors">
                   Fix IPTV Freezing Guide
                 </Link>
               </li>
               <li>
-                <Link href="/blog/best-vpn-for-iptv-streaming" className="hover:text-primary-light transition-colors">
+                <Link href="/blog/best-vpn-for-iptv-streaming-guide" className="hover:text-primary-light transition-colors">
                   Best VPNs for IPTV
                 </Link>
               </li>

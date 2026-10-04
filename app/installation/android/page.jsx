@@ -42,14 +42,14 @@ export default function AndroidGuidePage() {
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
             Quickly configure TVoxar on Android TV boxes, Google TV with Chromecast, Nvidia Shield, and Android smartphones using{" "}
             <Link
-              href="/blog/tivimate-premium-features-setup"
+              href="/blog/tivimate-iptv-player-setup-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               TiviMate Premium
             </Link>{" "}
             or{" "}
             <Link
-              href="/blog/iptv-smarters-pro-complete-setup-guide"
+              href="/blog/iptv-smarters-pro-setup-guide"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               IPTV Smarters Pro
@@ -127,7 +127,7 @@ export default function AndroidGuidePage() {
           </div>
           <p className="text-xs text-text-muted pt-2 border-t border-border/80">
             For advanced buffer cache configuration or hardware acceleration tips on Android, read our{" "}
-            <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+            <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-primary-light hover:underline font-semibold">
               buffering fix tutorial
             </Link>{" "}
             or speak with our{" "}

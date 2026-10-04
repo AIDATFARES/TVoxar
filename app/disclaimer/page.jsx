@@ -35,7 +35,7 @@ export default function DisclaimerPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">1. Service Nature &amp; Content Disclaimer</h2>
             <p>
-              TVoxar operates strictly as a digital media indexation platform and technical infrastructure relay for <Link href="/blog/best-iptv-players-2026" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">third-party IPTV player applications</Link>. TVoxar does not host, upload, record, or store audiovisual media files or broadcast streams on its web servers.
+              TVoxar operates strictly as a digital media indexation platform and technical infrastructure relay for <Link href="/blog/best-iptv-players-guide" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">third-party IPTV player applications</Link>. TVoxar does not host, upload, record, or store audiovisual media files or broadcast streams on its web servers.
             </p>
             <p className="text-xs text-text-muted">
               All live television channels and media feeds accessible via playlist URLs originate from independent third-party telecommunication distributors publicly available across the open internet and playable on <Link href="/devices" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">all compatible devices</Link>. TVoxar has no operational control over external servers, content licenses, or stream transmissions.
