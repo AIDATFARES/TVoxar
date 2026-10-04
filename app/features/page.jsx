@@ -140,7 +140,7 @@ export default function FeaturesPage() {
             Next-Gen IPTV Architecture
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Next-Generation IPTV Features Built for Extreme Reliability
+            TVoxar IPTV Features &amp; Anti-Freeze Streaming Architecture
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
             From our proprietary Anti-Freeze 9.3 intelligent stream routing to native 60 FPS sports broadcasts, discover the cutting-edge technology powering TVoxar IPTV. Engineered for demanding sports fans and entertainment lovers who require flawless playback on every device. Ready to experience superior streaming? Browse our{" "}
@@ -162,25 +162,35 @@ export default function FeaturesPage() {
         </div>
 
         {/* Features In-Depth Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
-          {deepFeatures.map((item, idx) => {
-            const Icon = item.icon;
-            return (
-              <div
-                key={idx}
-                className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
-              >
-                <div>
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light mb-6 group-hover:scale-110 transition-transform">
-                    <Icon className="w-6 h-6" />
+        <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Core TVoxar IPTV Streaming Features &amp; Capabilities
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              Engineered with multi-server redundancy, high-bitrate codecs, and adaptive bitrate control.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {deepFeatures.map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <div
+                  key={idx}
+                  className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
+                >
+                  <div>
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light mb-6 group-hover:scale-110 transition-transform">
+                      <Icon className="w-6 h-6" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">
+                      {item.title}
+                    </h3>
+                    <div className="text-sm text-text-muted leading-relaxed mb-6">
+                      {item.description}
+                    </div>
                   </div>
-                  <h2 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">
-                    {item.title}
-                  </h2>
-                  <div className="text-sm text-text-muted leading-relaxed mb-6">
-                    {item.description}
-                  </div>
-                </div>
 
                 <div className="pt-4 border-t border-border/80">
                   <ul className="space-y-2">
@@ -195,6 +205,7 @@ export default function FeaturesPage() {
               </div>
             );
           })}
+          </div>
         </div>
 
         {/* Technical Specification Table */}

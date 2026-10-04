@@ -77,7 +77,7 @@ export default function HomePage() {
               Common Questions
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              Everything You Need to Know About TVoxar
+              Frequently Asked Questions About TVoxar IPTV
             </h2>
             <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
               Have questions regarding device setup, stream stability, or connection delivery? Browse our quick answers below.

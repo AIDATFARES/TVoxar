@@ -59,103 +59,119 @@ export default function InstallationHubPage() {
         </div>
 
         {/* Prerequisites Banner */}
-        <div className="my-12 p-8 rounded-2xl bg-surface border border-border grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="flex items-start gap-3">
-            <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0">
-              <ShieldCheck className="w-5 h-5" />
+        <div className="my-12">
+          <h2 className="text-xl sm:text-2xl font-bold text-white mb-6">
+            Prerequisites Before You Begin Setup
+          </h2>
+          <div className="p-8 rounded-2xl bg-surface border border-border grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="flex items-start gap-3">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0">
+                <ShieldCheck className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white text-sm mb-1">1. Active TVoxar IPTV Pass</h3>
+                <p className="text-xs text-text-muted">
+                  Keep your welcome activation email handy with your server URL, username, and password. Need a pass?{" "}
+                  <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
+                    Select your plan here
+                  </Link>
+                  .
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="font-bold text-white text-sm mb-1">1. Active TVoxar IPTV Pass</h3>
-              <p className="text-xs text-text-muted">
-                Keep your welcome activation email handy with your server URL, username, and password. Need a pass?{" "}
-                <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
-                  Select your plan here
-                </Link>
-                .
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start gap-3">
-            <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0">
-              <Gauge className="w-5 h-5" />
+            <div className="flex items-start gap-3">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0">
+                <Gauge className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white text-sm mb-1">2. Stable 15+ Mbps Internet</h3>
+                <p className="text-xs text-text-muted">
+                  Connect via 5GHz Wi-Fi or Ethernet cable for smooth buffer-free 4K playback. Experiencing lag? See our{" "}
+                  <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-primary-light hover:underline font-semibold">
+                    anti-buffering guide
+                  </Link>
+                  .
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="font-bold text-white text-sm mb-1">2. Stable 15+ Mbps Internet</h3>
-              <p className="text-xs text-text-muted">
-                Connect via 5GHz Wi-Fi or Ethernet cable for smooth buffer-free 4K playback. Experiencing lag? See our{" "}
-                <Link href="/blog/fix-iptv-buffering-freezing-guide" className="text-primary-light hover:underline font-semibold">
-                  anti-buffering guide
-                </Link>
-                .
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start gap-3">
-            <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0">
-              <Clock className="w-5 h-5" />
-            </div>
-            <div>
-              <h3 className="font-bold text-white text-sm mb-1">3. Under 5 Minutes Setup</h3>
-              <p className="text-xs text-text-muted">
-                Download your preferred IPTV player, input your credentials, and enjoy instant live streaming. Compare options in our{" "}
-                <Link href="/blog/best-iptv-players-guide" className="text-primary-light hover:underline font-semibold">
-                  best IPTV players 2026 guide
-                </Link>
-                .
-              </p>
+            <div className="flex items-start gap-3">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0">
+                <Clock className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white text-sm mb-1">3. Under 5 Minutes Setup</h3>
+                <p className="text-xs text-text-muted">
+                  Download your preferred IPTV player, input your credentials, and enjoy instant live streaming. Compare options in our{" "}
+                  <Link href="/blog/best-iptv-players-guide" className="text-primary-light hover:underline font-semibold">
+                    best IPTV players 2026 guide
+                  </Link>
+                  .
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Guides Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-16">
-          {installationGuides.map((guide) => {
-            const Icon = iconMap[guide.slug] || Tv;
-            return (
-              <div
-                key={guide.slug}
-                className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light group-hover:scale-110 transition-transform">
-                      <Icon className="w-6 h-6" />
-                    </div>
-                    <span className="text-[11px] font-semibold text-text-muted bg-background/60 px-2.5 py-1 rounded-full border border-border">
-                      {guide.estimatedTime}
-                    </span>
-                  </div>
+        <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Select Your Streaming Device for Setup Instructions
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              Click any device below for detailed walkthroughs and recommended player configurations.
+            </p>
+          </div>
 
-                  <h2 className="text-lg font-bold text-white mb-2 group-hover:text-primary-light transition-colors">
-                    {guide.device}
-                  </h2>
-                  <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6">
-                    {guide.shortDesc}
-                  </p>
-
-                  <div className="text-xs text-text-secondary bg-background/50 p-3 rounded-xl border border-border/70 mb-6">
-                    <span className="text-text-muted">Top Player:</span>{" "}
-                    <strong className="text-white">{guide.recommendedApps.join(" / ")}</strong>
-                  </div>
-                </div>
-
-                <Link
-                  href={`/installation/${guide.slug}`}
-                  className="inline-flex items-center justify-between w-full p-3.5 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary/10 hover:bg-primary border border-primary/30 transition-all group-hover:shadow-glow"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {installationGuides.map((guide) => {
+              const Icon = iconMap[guide.slug] || Tv;
+              return (
+                <div
+                  key={guide.slug}
+                  className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
                 >
-                  <span>View {guide.device} IPTV Setup Guide</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-            );
-          })}
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light group-hover:scale-110 transition-transform">
+                        <Icon className="w-6 h-6" />
+                      </div>
+                      <span className="text-[11px] font-semibold text-text-muted bg-background/60 px-2.5 py-1 rounded-full border border-border">
+                        {guide.estimatedTime}
+                      </span>
+                    </div>
+
+                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-primary-light transition-colors">
+                      {guide.device}
+                    </h3>
+                    <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6">
+                      {guide.shortDesc}
+                    </p>
+
+                    <div className="text-xs text-text-secondary bg-background/50 p-3 rounded-xl border border-border/70 mb-6">
+                      <span className="text-text-muted">Top Player:</span>{" "}
+                      <strong className="text-white">{guide.recommendedApps.join(" / ")}</strong>
+                    </div>
+                  </div>
+
+                  <Link
+                    href={`/installation/${guide.slug}`}
+                    className="inline-flex items-center justify-between w-full p-3.5 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary/10 hover:bg-primary border border-primary/30 transition-all group-hover:shadow-glow"
+                  >
+                    <span>View {guide.device} IPTV Setup Guide</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         {/* Support Callout */}
         <div className="my-16 text-center bg-surface border border-border rounded-2xl p-8 max-w-3xl mx-auto space-y-4">
-          <h3 className="text-xl font-bold text-white">Need Personal Assistance Setting Up TVoxar IPTV?</h3>
+          <h2 className="text-xl font-bold text-white">Need Personal Assistance Setting Up TVoxar IPTV?</h2>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
             If you encounter any difficulty or need guidance choosing the best player for your streaming setup, consult our{" "}
             <Link href="/faq" className="text-primary-light hover:underline font-semibold">

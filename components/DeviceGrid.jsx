@@ -93,7 +93,7 @@ export default function DeviceGrid() {
         {/* Bottom Banner */}
         <div className="mt-12 text-center bg-surface/50 border border-border rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="text-center sm:text-left">
-            <h4 className="text-lg font-bold text-white">Need Personal Assistance Setting Up TVoxar IPTV?</h4>
+            <p className="text-lg font-bold text-white">Need Personal Assistance Setting Up TVoxar IPTV?</p>
             <p className="text-xs sm:text-sm text-text-muted">
               Our 24/7 technical team can guide you through configuring your device and preferred player step-by-step. Review our{" "}
               <Link href="/faq" className="text-primary-light hover:underline font-semibold">

@@ -97,6 +97,14 @@ export default function FaqPage() {
 
         {/* Faq Accordion with Categories */}
         <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-8 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Frequently Asked Questions &amp; Direct Answers
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              Click any question below to reveal detailed technical and subscription answers.
+            </p>
+          </div>
           <FaqAccordion faqs={fullFaqs} showCategories={true} />
         </div>
 

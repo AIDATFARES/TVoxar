@@ -137,9 +137,9 @@ export default function FirestickGuidePage() {
 
         {/* Other Guides Links */}
         <div className="my-12 p-6 rounded-2xl bg-surface border border-border">
-          <h3 className="text-sm font-bold uppercase tracking-wider text-text-muted mb-4">
+          <p className="text-sm font-bold uppercase tracking-wider text-text-muted mb-4">
             Other Device Setup Guides:
-          </h3>
+          </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <Link
               href="/installation/samsung-lg-smart-tv"

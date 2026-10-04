@@ -111,8 +111,18 @@ export default function BlogIndexPage() {
         )}
 
         {/* Regular Posts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-16">
-          {regularPosts.map((post) => (
+        <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              More IPTV Guides &amp; Technical Insights
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              In-depth device walkthroughs, player reviews, and anti-buffering masterclasses.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {regularPosts.map((post) => (
             <article
               key={post.slug}
               className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-card group"
@@ -161,6 +171,7 @@ export default function BlogIndexPage() {
               </div>
             </article>
           ))}
+          </div>
         </div>
 
         <CtaBanner />

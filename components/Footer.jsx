@@ -14,7 +14,7 @@ export default function Footer() {
               <Zap className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-text-primary text-sm">Instant Setup</h4>
+              <p className="font-bold text-text-primary text-sm">Instant Setup</p>
               <p className="text-xs text-text-muted">Automated login delivery</p>
             </div>
           </div>
@@ -24,7 +24,7 @@ export default function Footer() {
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-text-primary text-sm">Anti-Freeze 9.3</h4>
+              <p className="font-bold text-text-primary text-sm">Anti-Freeze 9.3</p>
               <p className="text-xs text-text-muted">Zero-stutter playback</p>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Footer() {
               <Lock className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-text-primary text-sm">Encrypted Checkout</h4>
+              <p className="font-bold text-text-primary text-sm">Encrypted Checkout</p>
               <p className="text-xs text-text-muted">256-bit SSL secured</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
               <HelpCircle className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-text-primary text-sm">24/7 Support</h4>
+              <p className="font-bold text-text-primary text-sm">24/7 Support</p>
               <p className="text-xs text-text-muted">Always-on technical team</p>
             </div>
           </div>
@@ -85,9 +85,9 @@ export default function Footer() {
 
           {/* Col 1: Commercial & Platform */}
           <div>
-            <h4 className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
+            <p className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
               Explore TVoxar IPTV
-            </h4>
+            </p>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <Link href="/pricing" className="hover:text-primary-light transition-colors">
@@ -124,9 +124,9 @@ export default function Footer() {
 
           {/* Col 2: Setup Guides */}
           <div>
-            <h4 className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
+            <p className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
               Installation Guides
-            </h4>
+            </p>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <Link href="/installation" className="hover:text-primary-light transition-colors font-medium text-text-primary">
@@ -168,9 +168,9 @@ export default function Footer() {
 
           {/* Col 3: Blog Tutorials & Legal */}
           <div>
-            <h4 className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
+            <p className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
               Resources &amp; Legal
-            </h4>
+            </p>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <Link href="/blog" className="hover:text-primary-light transition-colors">

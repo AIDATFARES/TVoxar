@@ -99,53 +99,64 @@ export default function ChannelsPage() {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-16">
-          {categories.map((cat, idx) => {
-            const Icon = cat.icon;
-            return (
-              <div
-                key={idx}
-                className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-5">
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light group-hover:scale-110 transition-transform">
-                      <Icon className="w-6 h-6" />
+        <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Premium IPTV Channel Categories &amp; Programming
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              Curated global channels broadcast in true 1080p and 4K resolution with automated EPG schedules.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {categories.map((cat, idx) => {
+              const Icon = cat.icon;
+              return (
+                <div
+                  key={idx}
+                  className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
+                >
+                  <div>
+                    <div className="flex items-center justify-between mb-5">
+                      <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light group-hover:scale-110 transition-transform">
+                        <Icon className="w-6 h-6" />
+                      </div>
+                      <span className="text-[11px] font-bold text-primary-light bg-primary/10 px-2.5 py-1 rounded-full border border-primary/20">
+                        {cat.badge}
+                      </span>
                     </div>
-                    <span className="text-[11px] font-bold text-primary-light bg-primary/10 px-2.5 py-1 rounded-full border border-primary/20">
-                      {cat.badge}
-                    </span>
-                  </div>
 
-                  <h2 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">
-                    {cat.name}
-                  </h2>
-                  <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6">
-                    {cat.description}
-                  </p>
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">
+                      {cat.name}
+                    </h3>
+                    <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6">
+                      {cat.description}
+                    </p>
 
-                  <div className="pt-4 border-t border-border/80">
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-text-muted block mb-2">
-                      Popular Networks Included:
-                    </span>
-                    <ul className="space-y-1.5 text-xs text-text-secondary">
-                      {cat.examples.map((ex, eIdx) => (
-                        <li key={eIdx} className="flex items-center gap-2">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 flex-shrink-0" />
-                          <span>{ex}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <div className="pt-4 border-t border-border/80">
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-text-muted block mb-2">
+                        Popular Networks Included:
+                      </span>
+                      <ul className="space-y-1.5 text-xs text-text-secondary">
+                        {cat.examples.map((ex, eIdx) => (
+                          <li key={eIdx} className="flex items-center gap-2">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 flex-shrink-0" />
+                            <span>{ex}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
 
         {/* Honest Architecture Notice */}
         <div className="my-12 p-8 rounded-2xl bg-surface border border-border max-w-4xl mx-auto text-center space-y-3">
-          <h3 className="text-lg font-bold text-white">Automated Electronic Program Guide (EPG) Included with TVoxar IPTV</h3>
+          <h2 className="text-lg sm:text-xl font-bold text-white">Automated Electronic Program Guide (EPG) Included with TVoxar IPTV</h2>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
             Our playlist servers refresh XMLTV guide data every 24 hours. When you connect via Xtream Codes on{" "}
             <Link href="/blog/tivimate-iptv-player-setup-guide" className="text-primary-light hover:underline font-semibold">

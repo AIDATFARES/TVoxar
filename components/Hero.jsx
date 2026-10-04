@@ -22,7 +22,7 @@ export default function Hero() {
 
             {/* H1 Heading */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
-              Stream Live TV, Sports &amp; Cinema with{" "}
+              Premium 4K IPTV Service for Live TV, Sports &amp; Cinema —{" "}
               <span className="gradient-text-primary">TVoxar IPTV</span>
             </h1>
 

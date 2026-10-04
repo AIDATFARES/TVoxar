@@ -77,28 +77,38 @@ export default function DevicesPage() {
         </div>
 
         {/* Device Detailed Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
-          {siteConfig.supportedDevices.map((device) => {
-            const Icon = iconMap[device.slug] || Tv;
-            return (
-              <div
-                key={device.slug}
-                className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
-              >
-                <div>
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0 group-hover:scale-110 transition-transform">
-                      <Icon className="w-7 h-7" />
+        <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Supported Devices &amp; Platform Compatibility
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              Optimized application recommendations and configuration guides for all major operating systems.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {siteConfig.supportedDevices.map((device) => {
+              const Icon = iconMap[device.slug] || Tv;
+              return (
+                <div
+                  key={device.slug}
+                  className="bg-surface/80 border border-border hover:border-primary/50 rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-card group"
+                >
+                  <div>
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light flex-shrink-0 group-hover:scale-110 transition-transform">
+                        <Icon className="w-7 h-7" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-white group-hover:text-primary-light transition-colors">
+                          {device.name}
+                        </h3>
+                        <span className="text-xs font-medium text-text-muted">
+                          {device.subtitle}
+                        </span>
+                      </div>
                     </div>
-                    <div>
-                      <h2 className="text-xl font-bold text-white group-hover:text-primary-light transition-colors">
-                        {device.name}
-                      </h2>
-                      <span className="text-xs font-medium text-text-muted">
-                        {device.subtitle}
-                      </span>
-                    </div>
-                  </div>
 
                   <p className="text-sm text-text-secondary leading-relaxed mb-6">
                     {device.description}
@@ -132,6 +142,7 @@ export default function DevicesPage() {
               </div>
             );
           })}
+          </div>
         </div>
 
         {/* CTA Banner */}

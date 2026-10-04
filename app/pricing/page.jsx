@@ -55,7 +55,7 @@ export default function PricingPage() {
             Official TVoxar IPTV Subscriptions
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Transparent IPTV Pricing with Zero Hidden Fees
+            TVoxar IPTV Subscription Plans &amp; Pricing
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
             Select the pass duration that fits your entertainment schedule. Every TVoxar IPTV plan includes our complete{" "}
@@ -83,11 +83,22 @@ export default function PricingPage() {
           </p>
         </div>
 
-        {/* Pricing Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-16">
-          {siteConfig.pricingPlans.map((plan) => (
-            <PricingCard key={plan.id} plan={plan} isFeatured={plan.popular} />
-          ))}
+        {/* Pricing Cards Grid Header & Cards */}
+        <div className="my-16">
+          <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Choose Your IPTV Subscription Plan
+            </h2>
+            <p className="text-text-secondary text-xs sm:text-sm">
+              Instant automated activation with unrestricted 4K UHD streaming across all duration options.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {siteConfig.pricingPlans.map((plan) => (
+              <PricingCard key={plan.id} plan={plan} isFeatured={plan.popular} />
+            ))}
+          </div>
         </div>
 
         {/* Trust Badges Strip */}
@@ -126,7 +137,7 @@ export default function PricingPage() {
         <div className="my-20 bg-background-secondary/70 border border-border rounded-3xl p-8 sm:p-12">
           <div className="max-w-3xl mx-auto text-center mb-10 space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
-              Identical VIP Streaming Quality Across Every IPTV Pass
+              What&apos;s Included With Every TVoxar IPTV Subscription
             </h2>
             <p className="text-text-secondary text-sm">
               We never restrict video resolution, throttle bandwidth, or limit channel availability on shorter durations. Whether you choose 1 month or 12 months, you receive the same VIP edge-server routing. Review our{" "}
