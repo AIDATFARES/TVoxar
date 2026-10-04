@@ -52,13 +52,13 @@ export default function PricingPage() {
         {/* Page Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Official TVoxar Subscriptions
+            Official TVoxar IPTV Subscriptions
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Transparent Pricing, Zero Hidden Fees
+            Transparent IPTV Pricing with Zero Hidden Fees
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Select the pass duration that fits your schedule. Every TVoxar plan includes our complete{" "}
+            Select the pass duration that fits your entertainment schedule. Every TVoxar IPTV plan includes our complete{" "}
             <Link
               href="/channels"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -126,10 +126,10 @@ export default function PricingPage() {
         <div className="my-20 bg-background-secondary/70 border border-border rounded-3xl p-8 sm:p-12">
           <div className="max-w-3xl mx-auto text-center mb-10 space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
-              The Exact Same Premium Quality on Every Pass
+              Identical VIP Streaming Quality Across Every IPTV Pass
             </h2>
             <p className="text-text-secondary text-sm">
-              We never handicap stream resolution or channel selection on shorter passes. You get identical VIP edge routing whether you choose 1 month or 12 months. Review our{" "}
+              We never restrict video resolution, throttle bandwidth, or limit channel availability on shorter durations. Whether you choose 1 month or 12 months, you receive the same VIP edge-server routing. Review our{" "}
               <Link href="/features" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
                 streaming specifications
               </Link>{" "}
@@ -143,7 +143,7 @@ export default function PricingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
-              <h3 className="font-bold text-white text-base mb-2">Unrestricted Channel Catalog</h3>
+              <h3 className="font-bold text-white text-base mb-2">Unrestricted Global IPTV Channels</h3>
               <p className="text-xs text-text-muted leading-relaxed">
                 Full access to all international feeds, news networks, premium documentary channels, and kids entertainment without paywalls. Browse our{" "}
                 <Link href="/channels" className="text-primary-light hover:underline font-semibold">
@@ -153,7 +153,7 @@ export default function PricingPage() {
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
-              <h3 className="font-bold text-white text-base mb-2">60 FPS Live Sports Feeds</h3>
+              <h3 className="font-bold text-white text-base mb-2">60 FPS Live Sports Broadcasts</h3>
               <p className="text-xs text-text-muted leading-relaxed">
                 High framerate broadcasts for Premier League, Champions League, UFC PPVs, NFL, NBA, Formula 1, and tennis tournaments on any{" "}
                 <Link href="/devices" className="text-primary-light hover:underline font-semibold">
@@ -187,7 +187,7 @@ export default function PricingPage() {
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
-              <h3 className="font-bold text-white text-base mb-2">7-Day Program Guide (EPG)</h3>
+              <h3 className="font-bold text-white text-base mb-2">7-Day Synchronized EPG Schedule</h3>
               <p className="text-xs text-text-muted leading-relaxed">
                 Clean, synchronized electronic program schedule with catch-up functionality on compatible channels and{" "}
                 <Link href="/blog/best-iptv-players-2026" className="text-primary-light hover:underline font-semibold">
@@ -197,7 +197,7 @@ export default function PricingPage() {
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
-              <h3 className="font-bold text-white text-base mb-2">VPN Friendly Compatibility</h3>
+              <h3 className="font-bold text-white text-base mb-2">Full VPN-Friendly Compatibility</h3>
               <p className="text-xs text-text-muted leading-relaxed">
                 Stream safely through NordVPN, ExpressVPN, Surfshark, or any preferred provider without account restrictions. Learn more in our{" "}
                 <Link href="/blog/best-vpn-for-iptv-streaming" className="text-primary-light hover:underline font-semibold">
@@ -213,7 +213,7 @@ export default function PricingPage() {
         <div className="my-20">
           <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
-              Pricing &amp; Subscription Questions
+              TVoxar IPTV Pricing &amp; Subscription Questions
             </h2>
             <p className="text-xs sm:text-sm text-text-secondary">
               Everything you need to know about payments, activations, and renewals.
@@ -224,9 +224,9 @@ export default function PricingPage() {
 
         {/* Final CTA */}
         <CtaBanner
-          title="Start Watching with TVoxar Today"
-          description="Choose your preferred subscription plan and get your login credentials dispatched within minutes."
-          buttonText="Select Your Plan Now"
+          title="Start Streaming with TVoxar IPTV Today"
+          description="Choose your ideal IPTV subscription pass and receive instant activation credentials directly in your inbox."
+          buttonText="Choose Your IPTV Plan"
           buttonHref="#pricing"
         />
       </div>

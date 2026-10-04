@@ -17,44 +17,44 @@ export default function ChannelsPage() {
   const categories = [
     {
       icon: Trophy,
-      name: "Live Sports & PPV Events",
+      name: "Live IPTV Sports & PPV Events",
       badge: "60 FPS Feeds",
-      description: "Dedicated high-bitrate live feeds for Premier League, UEFA Champions League, La Liga, Serie A, NFL Sunday Ticket, NBA League Pass, UFC Fight Nights, and Formula 1.",
+      description: "Dedicated high-bitrate live feeds for Premier League, UEFA Champions League, La Liga, Serie A, NFL Sunday Ticket, NBA League Pass, UFC Fight Nights, and Formula 1 without blackout restrictions.",
       examples: ["Sky Sports HD & 4K", "TNT Sports Ultimate", "beIN Sports Global", "ESPN & Fox Sports", "DAZN Feeds", "SuperSport Africa", "Astro SuperSport"],
     },
     {
       icon: Film,
-      name: "Cinema & Premium Entertainment",
+      name: "Cinema & Premium On-Demand Networks",
       badge: "4K & Dolby 5.1",
-      description: "Non-stop movie channels broadcasting commercial-free Hollywood hits, indie cinema, and exclusive premiere networks with multi-audio language options.",
+      description: "Non-stop movie channels broadcasting commercial-free Hollywood blockbusters, indie films, and premiere networks with multi-audio language tracks.",
       examples: ["HBO & Cinemax", "Sky Cinema UHD", "Canal+ Cinema", "Movistar Estrenos", "Starz & Showtime", "Cine Premiere 4K"],
     },
     {
       icon: Newspaper,
-      name: "24/7 Global News & Analysis",
+      name: "24/7 Global Live News & Analysis",
       badge: "Live Feeds",
       description: "Stay informed around the clock with leading international rolling news broadcasts from the world's most trusted global correspondents.",
       examples: ["BBC News & CNN", "Sky News UK", "Fox News Channel", "CNBC & Bloomberg", "Al Jazeera English", "France 24", "EuroNews"],
     },
     {
       icon: Baby,
-      name: "Kids, Animation & Family",
+      name: "Kids, Animation & Family Entertainment",
       badge: "Multi-Language",
-      description: "Safe, commercial-free animation and educational television for children of all ages, with options for dual-language soundtracks.",
+      description: "Safe, commercial-free animation and educational television for children of all ages, with dual-language soundtracks and family programming.",
       examples: ["Disney Channel & Junior", "Cartoon Network", "Nickelodeon & Nick Jr.", "Boomerang", "CBBC & CBeebies"],
     },
     {
       icon: Compass,
-      name: "Documentary, Nature & Science",
+      name: "Documentary, Nature & Science Channels",
       badge: "1080p & 4K",
-      description: "Stunning nature documentaries, historical investigations, and science programming streamed in vibrant high definition.",
+      description: "Breathtaking nature documentaries, deep historical investigations, and science programming streamed in crystal-clear high definition.",
       examples: ["Discovery Channel UHD", "National Geographic", "Animal Planet", "History Channel", "Smithsonian", "BBC Earth 4K"],
     },
     {
       icon: Globe2,
-      name: "International Country Packages",
+      name: "International Country TV Packages",
       badge: "Worldwide",
-      description: "Native television lineups grouped neatly by country so expatriates and polyglots can feel right at home anywhere in the world.",
+      description: "Native television lineups grouped neatly by region so expatriates and global viewers can enjoy their favorite domestic broadcasts from anywhere.",
       examples: ["United States & Canada", "United Kingdom & Ireland", "France, Belgium & Switzerland", "Spain & Latin America", "Germany & Austria", "Italy & Netherlands", "Arabic & Middle East"],
     },
   ];
@@ -67,13 +67,13 @@ export default function ChannelsPage() {
         {/* Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Channel Line-Up
+            Premium IPTV Channel Line-Up
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            World-Class Live Television Categories
+            Explore Premium Live TV Channels &amp; Sports on TVoxar IPTV
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            TVoxar organizes television networks into intuitive country and genre categories. Every channel features automated EPG schedules on{" "}
+            TVoxar IPTV organizes thousands of premier global television networks into curated country and genre categories. From high-octane 60 FPS sports broadcasts to commercial-free 4K cinema and 24/7 news, every channel includes automated EPG schedule data across all{" "}
             <Link
               href="/blog/best-iptv-players-2026"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -145,7 +145,7 @@ export default function ChannelsPage() {
 
         {/* Honest Architecture Notice */}
         <div className="my-12 p-8 rounded-2xl bg-surface border border-border max-w-4xl mx-auto text-center space-y-3">
-          <h3 className="text-lg font-bold text-white">Full Electronic Program Guide (EPG) Included</h3>
+          <h3 className="text-lg font-bold text-white">Automated Electronic Program Guide (EPG) Included with TVoxar IPTV</h3>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
             Our playlist servers refresh XMLTV guide data every 24 hours. When you connect via Xtream Codes on{" "}
             <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline font-semibold">
@@ -169,9 +169,9 @@ export default function ChannelsPage() {
 
         {/* CTA */}
         <CtaBanner
-          title="Ready to Start Watching?"
-          description="Unlock access to all live sports feeds and international television channels today."
-          buttonText="Choose Your Pass"
+          title="Ready to Explore the Full TVoxar IPTV Channel Line-Up?"
+          description="Unlock immediate access to all live sports feeds, international channels, and 4K cinema on TVoxar IPTV today."
+          buttonText="Choose Your IPTV Pass"
           buttonHref="/pricing"
         />
       </div>

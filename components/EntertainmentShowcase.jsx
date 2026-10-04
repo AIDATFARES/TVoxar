@@ -11,13 +11,13 @@ export default function EntertainmentShowcase() {
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-xs font-bold text-red-400 uppercase tracking-wider">
               <Trophy className="w-3.5 h-3.5" />
-              <span>World-Class Live Sports</span>
+              <span>Live IPTV Sports &amp; PPV Feeds</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-              Every League, Every Match, Every PPV in 60 FPS
+              Stream Every Major Sports League &amp; PPV Event in 60 FPS
             </h2>
             <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-              Never miss a kick, knockout, or checkered flag. TVoxar delivers high-bitrate live feeds with dedicated backup server links for every marquee athletic event globally. Stream major tournaments without delay using our{" "}
+              Never miss a kick, knockout, or checkered flag. TVoxar IPTV delivers high-bitrate live feeds with dedicated backup server links for every marquee athletic event globally. Stream major tournaments without delay using our{" "}
               <Link
                 href="/features"
                 className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -29,7 +29,7 @@ export default function EntertainmentShowcase() {
                 href="/channels"
                 className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
               >
-                sports channel schedule
+                complete sports channel lineup
               </Link>
               .
             </p>
@@ -58,7 +58,7 @@ export default function EntertainmentShowcase() {
                 href="/channels"
                 className="inline-flex items-center gap-2 text-sm font-bold text-primary-light hover:text-white transition-colors"
               >
-                <span>View Complete Sports Channel Guide</span>
+                <span>Explore All Live Sports Channels</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -82,10 +82,10 @@ export default function EntertainmentShowcase() {
           <div className="lg:col-span-6 lg:order-2 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-xs font-bold text-amber-400 uppercase tracking-wider">
               <Film className="w-3.5 h-3.5" />
-              <span>Unlimited Cinema &amp; Series</span>
+              <span>On-Demand IPTV Cinema &amp; Box Sets</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-              A Massive Library of 4K Movies &amp; Binge-Worthy Series
+              Massive VOD Library of 4K Movies &amp; Binge-Worthy Series
             </h2>
             <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
               Explore thousands of on-demand movies ranging from modern cinema premieres to celebrated classics, with complete season box sets, pristine audio encoding, and multiple subtitle options. Compatible with all screens in our{" "}
@@ -95,12 +95,12 @@ export default function EntertainmentShowcase() {
               >
                 supported devices list
               </Link>{" "}
-              and included with every{" "}
+              and included standard with your{" "}
               <Link
                 href="/pricing"
                 className="text-white hover:text-amber-400 underline decoration-amber-400/40 underline-offset-2 transition-colors font-medium"
               >
-                TVoxar subscription pass
+                TVoxar IPTV subscription pass
               </Link>
               .
             </p>
@@ -129,7 +129,7 @@ export default function EntertainmentShowcase() {
                 href="/pricing"
                 className="inline-flex items-center gap-2 text-sm font-bold text-amber-400 hover:text-white transition-colors"
               >
-                <span>Unlock Full VOD Catalog</span>
+                <span>Browse Included VOD Entertainment</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

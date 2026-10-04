@@ -27,13 +27,13 @@ export default function BlogIndexPage() {
         {/* Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Knowledge Base &amp; Insights
+            IPTV Knowledge &amp; Tutorials
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            TVoxar IPTV Guides &amp; Tutorials
+            TVoxar IPTV Tutorials, News &amp; Streaming Guides
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Expert articles covering the latest IPTV player applications, network optimization techniques, Smart TV apps, and privacy configurations. Ready to get started? View our{" "}
+            Explore expert, tested IPTV tutorials covering top IPTV players, anti-buffering optimization, Smart TV setup, and VPN configurations curated by the TVoxar IPTV engineering team. Ready to stream? View our{" "}
             <Link
               href="/pricing"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"

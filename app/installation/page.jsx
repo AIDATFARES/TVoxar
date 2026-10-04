@@ -34,13 +34,13 @@ export default function InstallationHubPage() {
         {/* Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Setup Tutorials
+            Device Setup Guides
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            TVoxar IPTV Installation Center
+            TVoxar IPTV Installation &amp; Setup Center
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Choose your device below for complete step-by-step instructions. Most setups take under 5 minutes and require only your TVoxar login credentials and internet connection. If you don&apos;t have an active account yet, choose an{" "}
+            Follow our tested, step-by-step IPTV setup tutorials to connect TVoxar IPTV on any device in under 5 minutes. All configurations use standard Xtream Codes API credentials or M3U playlist URLs for instant automated activation. If you haven&apos;t secured your subscription yet, select an{" "}
             <Link
               href="/pricing"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -65,9 +65,9 @@ export default function InstallationHubPage() {
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-white text-sm mb-1">1. Active TVoxar Pass</h3>
+              <h3 className="font-bold text-white text-sm mb-1">1. Active TVoxar IPTV Pass</h3>
               <p className="text-xs text-text-muted">
-                Keep your activation email handy with your credentials. Need a pass?{" "}
+                Keep your welcome activation email handy with your server URL, username, and password. Need a pass?{" "}
                 <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
                   Select your plan here
                 </Link>
@@ -81,9 +81,9 @@ export default function InstallationHubPage() {
               <Gauge className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-white text-sm mb-1">2. 15+ Mbps Internet</h3>
+              <h3 className="font-bold text-white text-sm mb-1">2. Stable 15+ Mbps Internet</h3>
               <p className="text-xs text-text-muted">
-                Connect via 5GHz Wi-Fi or Ethernet. Experiencing lag? See our{" "}
+                Connect via 5GHz Wi-Fi or Ethernet cable for smooth buffer-free 4K playback. Experiencing lag? See our{" "}
                 <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
                   anti-buffering guide
                 </Link>
@@ -97,9 +97,9 @@ export default function InstallationHubPage() {
               <Clock className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-white text-sm mb-1">3. Approx. 5 Minutes</h3>
+              <h3 className="font-bold text-white text-sm mb-1">3. Under 5 Minutes Setup</h3>
               <p className="text-xs text-text-muted">
-                Download your chosen player and log in. Compare options in our{" "}
+                Download your preferred IPTV player, input your credentials, and enjoy instant live streaming. Compare options in our{" "}
                 <Link href="/blog/best-iptv-players-2026" className="text-primary-light hover:underline font-semibold">
                   best IPTV players 2026 guide
                 </Link>
@@ -145,7 +145,7 @@ export default function InstallationHubPage() {
                   href={`/installation/${guide.slug}`}
                   className="inline-flex items-center justify-between w-full p-3.5 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary/10 hover:bg-primary border border-primary/30 transition-all group-hover:shadow-glow"
                 >
-                  <span>Start {guide.device} Setup</span>
+                  <span>View {guide.device} IPTV Setup Guide</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
@@ -155,19 +155,19 @@ export default function InstallationHubPage() {
 
         {/* Support Callout */}
         <div className="my-16 text-center bg-surface border border-border rounded-2xl p-8 max-w-3xl mx-auto space-y-4">
-          <h3 className="text-xl font-bold text-white">Need Live Setup Assistance?</h3>
+          <h3 className="text-xl font-bold text-white">Need Personal Assistance Setting Up TVoxar IPTV?</h3>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-            If you run into any difficulty or an unusual error code during configuration, check our{" "}
+            If you encounter any difficulty or need guidance choosing the best player for your streaming setup, consult our{" "}
             <Link href="/faq" className="text-primary-light hover:underline font-semibold">
               installation FAQ
             </Link>{" "}
-            or contact TVoxar customer support. Our technical team is available 24/7.
+            or open a ticket with our 24/7 technical helpdesk.
           </p>
           <Link
             href="/contact"
             className="inline-block px-6 py-3 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary hover:bg-primary-light transition-colors"
           >
-            Contact TVoxar Support
+            Contact TVoxar IPTV Support
           </Link>
         </div>
 

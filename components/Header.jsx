@@ -177,7 +177,7 @@ export default function Header() {
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm text-white bg-gradient-to-r from-primary to-secondary hover:opacity-95 shadow-glow hover:shadow-lg transition-all transform hover:-translate-y-0.5"
             >
               <Zap className="w-4 h-4" />
-              <span>Get TVoxar Pass</span>
+              <span>Get TVoxar IPTV Pass</span>
             </Link>
           </div>
 
@@ -272,7 +272,7 @@ export default function Header() {
                 className="w-full text-center flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-bold text-base text-white bg-gradient-to-r from-primary to-secondary shadow-glow"
               >
                 <Zap className="w-5 h-5" />
-                <span>Choose Your Subscription</span>
+                <span>Get TVoxar IPTV Pass</span>
               </Link>
             </div>
           </div>

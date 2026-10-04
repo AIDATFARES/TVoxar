@@ -29,13 +29,13 @@ export default function ContactPage() {
         {/* Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            24/7 Customer Care
+            24/7 Priority IPTV Helpdesk
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Get in Touch with TVoxar Support
+            Contact TVoxar IPTV Customer Support
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Need help with your device installation, custom multi-screen packages, or payment confirmation? Our technical team is standing by around the clock. You can also explore our{" "}
+            Need technical help with your IPTV player installation, activation credentials, custom multi-screen setups, or renewal queries? TVoxar IPTV customer care specialists are standing by 24 hours a day, 7 days a week. You can also explore our{" "}
             <Link
               href="/installation"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -64,7 +64,7 @@ export default function ContactPage() {
           {/* Left Column: Direct channels & Response SLA */}
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-surface border border-border rounded-2xl p-6 sm:p-8 space-y-6">
-              <h2 className="text-xl font-bold text-white">Direct Support Channels</h2>
+              <h2 className="text-xl font-bold text-white">Direct TVoxar IPTV Support Channels</h2>
 
               <div className="space-y-4">
                 <div className="flex items-start gap-3.5 p-4 rounded-xl bg-background/60 border border-border">
@@ -124,7 +124,7 @@ export default function ContactPage() {
           {/* Right Column: Interactive Ticket Form */}
           <div className="lg:col-span-7">
             <div className="bg-surface border border-border rounded-2xl p-6 sm:p-8 shadow-card">
-              <h2 className="text-xl font-bold text-white mb-6">Send an Inquiry or Support Request</h2>
+              <h2 className="text-xl font-bold text-white mb-6">Submit a TVoxar IPTV Support Request</h2>
 
               {submitted ? (
                 <div className="p-8 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-center space-y-4">
@@ -230,7 +230,7 @@ export default function ContactPage() {
                     className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm text-white bg-gradient-to-r from-primary to-secondary hover:opacity-95 shadow-glow transition-all"
                   >
                     <Send className="w-4 h-4" />
-                    <span>Send Message to Support</span>
+                    <span>Submit IPTV Support Request</span>
                   </button>
                 </form>
               )}

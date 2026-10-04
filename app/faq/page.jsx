@@ -18,8 +18,8 @@ export default function FaqPage() {
   const fullFaqs = [
     ...siteConfig.faqs,
     {
-      q: "Can I use TVoxar while traveling internationally?",
-      a: "Yes. TVoxar has no geographic IP locks. You can take your Firestick or login with your mobile phone or laptop wherever you travel, provided you have a steady broadband or mobile data connection of 15+ Mbps.",
+      q: "Can I use TVoxar IPTV while traveling abroad?",
+      a: "Yes. TVoxar IPTV enforces zero geographic IP restrictions. You can take your Amazon Firestick or log in via your smartphone or laptop anywhere in the world, as long as you have a stable broadband or mobile data connection of 15+ Mbps.",
       category: "General",
     },
     {
@@ -57,13 +57,13 @@ export default function FaqPage() {
         {/* Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Help &amp; Knowledge Base
+            Knowledge Base &amp; Support
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Frequently Asked Questions
+            Frequently Asked Questions About TVoxar IPTV
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Everything you need to know about TVoxar IPTV{" "}
+            Find clear, direct answers to common questions about TVoxar IPTV{" "}
             <Link
               href="/pricing"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -105,9 +105,9 @@ export default function FaqPage() {
           <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light mx-auto">
             <MessageSquare className="w-6 h-6" />
           </div>
-          <h2 className="text-xl font-bold text-white">Still Have Questions?</h2>
+          <h2 className="text-xl font-bold text-white">Have More Questions About TVoxar IPTV?</h2>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-xl mx-auto">
-            Our technical support specialists are available 24/7 to answer any technical or billing questions you may have before or after subscribing. You can also explore our{" "}
+            Our technical support specialists are available 24/7 to assist with connection setups, playlist inquiries, or billing questions. You can also explore our{" "}
             <Link href="/blog" className="text-primary-light hover:underline font-semibold">
               IPTV troubleshooting blog
             </Link>{" "}
@@ -121,7 +121,7 @@ export default function FaqPage() {
             href="/contact"
             className="inline-block px-6 py-3 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary hover:bg-primary-light transition-colors"
           >
-            Contact Customer Support
+            Contact TVoxar IPTV Support
           </Link>
         </div>
 

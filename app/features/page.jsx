@@ -20,7 +20,7 @@ export default function FeaturesPage() {
       title: "TVoxar Anti-Freeze 9.3 Protocol",
       description: (
         <span>
-          Traditional IPTV streams fail when thousands of viewers tune into the same match. TVoxar&apos;s proprietary Anti-Freeze 9.3 infrastructure distributes load across Tier-1 datacenters to eliminate lag. Read our{" "}
+          Traditional IPTV streams often stutter when millions of viewers tune into the same live football fixture or PPV fight. TVoxar IPTV solves this with our proprietary Anti-Freeze 9.3 load-balancing architecture, routing video packets across redundant Tier-1 edge clusters to eliminate buffering entirely. Read our{" "}
           <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
             guide on fixing IPTV buffering
           </Link>
@@ -28,17 +28,17 @@ export default function FeaturesPage() {
         </span>
       ),
       bullets: [
-        "Dynamic packet reallocation during network congestion",
-        "Zero audio desynchronization on live sports",
-        "Sub-second channel zapping times",
+        "Dynamic packet reallocation during high-traffic sports events",
+        "Zero audio-video desynchronization on live 60 FPS feeds",
+        "Sub-second IPTV channel zapping and rapid stream buffering",
       ],
     },
     {
       icon: Tv,
-      title: "True 4K UHD & 60 FPS Framerates",
+      title: "True 4K UHD & Native 60 FPS Sports Streams",
       description: (
         <span>
-          Fast-paced action requires 60 frames per second to eliminate motion blur. TVoxar prioritizes native 60fps feeds on major football, basketball, and racing channels. Explore all broadcast streams in our{" "}
+          Fast-paced action demands high framerates to eliminate motion blur and ghosting. TVoxar IPTV delivers dedicated 60 frames-per-second feeds across all major football, basketball, motorsports, and combat sports channels. Explore all broadcast streams in our{" "}
           <Link href="/channels" className="text-primary-light hover:underline font-semibold">
             live channels catalog
           </Link>
@@ -46,17 +46,17 @@ export default function FeaturesPage() {
         </span>
       ),
       bullets: [
-        "Crisp 3840x2160 UHD feeds on supported channels",
-        "True 60fps high-bitrate video encoding",
-        "Adaptive bitrate switching for slower broadband lines",
+        "Ultra-crisp 3840x2160 4K UHD feeds on supported channels",
+        "Native 60 FPS high-bitrate encoding for fluid live sports",
+        "Intelligent adaptive bitrate switching for fluctuating connections",
       ],
     },
     {
       icon: Calendar,
-      title: "Interactive 7-Day Electronic Program Guide (EPG)",
+      title: "Automated 7-Day Electronic Program Guide (EPG)",
       description: (
         <span>
-          Say goodbye to blank guides. TVoxar&apos;s EPG updates automatically every 24 hours with full cast details and catch-up on top players like{" "}
+          Never miss kickoff or the latest episode with a fully populated television guide. TVoxar IPTV provides automated 24-hour EPG updates with complete show descriptions, episode summaries, and catch-up metadata configured seamlessly for top players like{" "}
           <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline">
             TiviMate
           </Link>{" "}
@@ -68,17 +68,17 @@ export default function FeaturesPage() {
         </span>
       ),
       bullets: [
-        "Automated XMLTV and Xtream Codes EPG sync",
-        "Full 7-day forward schedule guide",
-        "Catch-up replays available on select premium channels",
+        "Automated XMLTV and Xtream Codes API schedule integration",
+        "Full 7-day forward electronic program scheduling",
+        "Catch-up playback available on select international channels",
       ],
     },
     {
       icon: Film,
-      title: "Curated VOD Cinema & Box Sets",
+      title: "On-Demand IPTV Cinema & Complete TV Box Sets",
       description: (
         <span>
-          Enjoy a premier home cinema experience with an on-demand library featuring blockbuster films and entire seasons of top shows, all included with your{" "}
+          Transform your living room into an on-demand cinema with a vast library of recent blockbuster films, timeless classics, and full seasons of trending television series, all bundled at no extra cost with your{" "}
           <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
             TVoxar IPTV pass
           </Link>
@@ -86,17 +86,17 @@ export default function FeaturesPage() {
         </span>
       ),
       bullets: [
-        "Multi-language original audio tracks",
-        "Multi-language subtitle support (SRT/CC)",
-        "Regular weekly additions of recent cinema premieres",
+        "Dual-audio tracks and multi-language studio sound options",
+        "Crystal-clear subtitles in multiple languages (SRT & CC)",
+        "Regular catalog updates with the latest box office releases",
       ],
     },
     {
       icon: Server,
-      title: "99.9% Uptime Redundant Edge Servers",
+      title: "99.9% Uptime Redundant Global Edge Infrastructure",
       description: (
         <span>
-          Our streaming architecture is distributed across international points of presence (PoPs). If a transit path degrades, your player instantly routes to an alternative mirror. Learn more in our{" "}
+          Our IPTV streaming backbone spans high-capacity points of presence across North America and Europe. If an internet transit route experiences latency, your connection automatically fails over to an optimal edge node without disrupting your broadcast. Learn more in our{" "}
           <Link href="/faq" className="text-primary-light hover:underline font-semibold">
             frequently asked questions
           </Link>
@@ -105,16 +105,16 @@ export default function FeaturesPage() {
       ),
       bullets: [
         "Distributed datacenters across North America and Europe",
-        "Proactive server health monitoring 24/7",
-        "Unthrottled 10Gbps dedicated server ports",
+        "Proactive 24/7 server health monitoring and packet routing",
+        "Dedicated unthrottled 10Gbps server network uplinks",
       ],
     },
     {
       icon: ShieldCheck,
-      title: "Unrestricted VPN Compatibility",
+      title: "Unrestricted VPN-Friendly Streaming Compatibility",
       description: (
         <span>
-          While some providers restrict accounts to one residential IP, TVoxar encourages using NordVPN or ExpressVPN to protect privacy and prevent ISP throttling. Discover the{" "}
+          Unlike rigid providers that lock your account to a single ISP address, TVoxar IPTV gives you full freedom to connect via NordVPN, ExpressVPN, Surfshark, or any trusted VPN provider to safeguard privacy and bypass ISP throttling. Discover the{" "}
           <Link href="/blog/best-vpn-for-iptv-streaming" className="text-primary-light hover:underline font-semibold">
             best VPNs for IPTV streaming
           </Link>
@@ -122,9 +122,9 @@ export default function FeaturesPage() {
         </span>
       ),
       bullets: [
-        "Compatible with all major commercial VPN providers",
-        "No geo-locking on account usage",
-        "Bypasses peak-hour internet provider slowdowns",
+        "100% compatible with all leading commercial VPN networks",
+        "No IP lockouts or unexpected account suspension rules",
+        "Defeats peak-hour internet provider speed throttling",
       ],
     },
   ];
@@ -137,13 +137,13 @@ export default function FeaturesPage() {
         {/* Hero Banner */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Engineering Excellence
+            Next-Gen IPTV Architecture
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Advanced IPTV Features Built for Ultimate Stability
+            Next-Generation IPTV Features Built for Extreme Reliability
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            From our proprietary Anti-Freeze 9.3 load balancer to native 60fps sports broadcasts, explore the technology that makes TVoxar a top-tier streaming service. Ready to start? Browse our{" "}
+            From our proprietary Anti-Freeze 9.3 intelligent stream routing to native 60 FPS sports broadcasts, discover the cutting-edge technology powering TVoxar IPTV. Engineered for demanding sports fans and entertainment lovers who require flawless playback on every device. Ready to experience superior streaming? Browse our{" "}
             <Link
               href="/pricing"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -200,13 +200,13 @@ export default function FeaturesPage() {
         {/* Technical Specification Table */}
         <div className="my-20 bg-surface border border-border rounded-3xl p-8 sm:p-12 overflow-x-auto">
           <h2 className="text-2xl font-bold text-white mb-6 text-center">
-            TVoxar Technical Stream Specifications
+            TVoxar IPTV Technical Streaming Specifications
           </h2>
           <table className="w-full text-left text-sm text-text-secondary">
             <thead>
               <tr className="border-b border-border text-xs uppercase tracking-wider text-text-muted">
                 <th className="py-3 px-4">Specification</th>
-                <th className="py-3 px-4">TVoxar Standard</th>
+                <th className="py-3 px-4">TVoxar IPTV Standard</th>
                 <th className="py-3 px-4">Viewer Benefit</th>
               </tr>
             </thead>
@@ -258,9 +258,9 @@ export default function FeaturesPage() {
 
         {/* CTA */}
         <CtaBanner
-          title="Ready to Experience the Difference?"
-          description="Test TVoxar's Anti-Freeze 9.3 streaming technology on your favorite device today."
-          buttonText="View Subscription Plans"
+          title="Ready to Experience Superior IPTV Streaming?"
+          description="Test TVoxar IPTV's Anti-Freeze 9.3 streaming technology and 4K picture clarity on your favorite device today."
+          buttonText="View TVoxar IPTV Plans"
           buttonHref="/pricing"
         />
       </div>

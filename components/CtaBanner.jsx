@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Zap, ShieldCheck, ArrowRight, CheckCircle2 } from "lucide-react";
 
 export default function CtaBanner({
-  title = "Ready for Next-Gen 4K IPTV Streaming?",
-  description = "Join thousands of satisfied viewers watching global live sports, premium television networks, and on-demand movies with zero buffering.",
-  buttonText = "Choose Your Subscription Plan",
+  title = "Ready to Elevate Your Viewing with TVoxar IPTV?",
+  description = "Join thousands of satisfied viewers watching global live sports, premium television networks, and 4K on-demand movies with zero buffering.",
+  buttonText = "Choose Your IPTV Plan",
   buttonHref = "/pricing",
 }) {
   return (

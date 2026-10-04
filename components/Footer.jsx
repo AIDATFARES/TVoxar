@@ -64,7 +64,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-text-muted leading-relaxed text-sm pr-6">
-              TVoxar is a high-performance IPTV streaming provider delivering ultra-crisp 4K UHD and 60fps live sports, premium television networks, and video on demand to screens worldwide. Built on resilient edge infrastructure with proprietary anti-buffering technology.
+              TVoxar IPTV is a high-performance streaming service delivering ultra-crisp 4K UHD and 60 FPS live sports, premium television networks, and video on demand to screens worldwide. Built on resilient global edge infrastructure powered by our proprietary Anti-Freeze 9.3 engine.
             </p>
             <div className="flex items-center gap-2 pt-2 text-xs text-text-muted">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
@@ -75,7 +75,7 @@ export default function Footer() {
           {/* Col 1: Commercial & Platform */}
           <div>
             <h4 className="text-text-primary font-bold text-sm tracking-wider uppercase mb-4">
-              Explore TVoxar
+              Explore TVoxar IPTV
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>

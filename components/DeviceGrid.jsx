@@ -20,25 +20,25 @@ export default function DeviceGrid() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Universal Compatibility
+            Universal Device Compatibility
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Stream TVoxar on All Your Favorite Devices
+            Stream TVoxar IPTV on All Your Favorite Devices
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Whether you watch on your living room 4K TV, computer, or smartphone while traveling, TVoxar supports your preferred streaming setup. Browse our full{" "}
+            Whether you watch on your living room 4K Smart TV, Amazon Firestick, personal computer, or smartphone while traveling, TVoxar IPTV delivers optimized streaming quality on your setup. Browse our complete{" "}
             <Link
               href="/devices"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
               device compatibility overview
             </Link>
-            , explore our comprehensive{" "}
+            , explore our step-by-step{" "}
             <Link
               href="/installation"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
-              installation guides hub
+              IPTV installation guides hub
             </Link>
             , or choose a{" "}
             <Link
@@ -93,9 +93,9 @@ export default function DeviceGrid() {
         {/* Bottom Banner */}
         <div className="mt-12 text-center bg-surface/50 border border-border rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="text-center sm:text-left">
-            <h4 className="text-lg font-bold text-white">Need personal setup assistance?</h4>
+            <h4 className="text-lg font-bold text-white">Need Personal Assistance Setting Up TVoxar IPTV?</h4>
             <p className="text-xs sm:text-sm text-text-muted">
-              Our 24/7 technical team can walk you through configuring your device step-by-step. Review our{" "}
+              Our 24/7 technical team can guide you through configuring your device and preferred player step-by-step. Review our{" "}
               <Link href="/faq" className="text-primary-light hover:underline font-semibold">
                 frequently asked questions
               </Link>{" "}
@@ -106,7 +106,7 @@ export default function DeviceGrid() {
             href="/contact"
             className="px-6 py-3 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary hover:bg-primary-light transition-colors whitespace-nowrap flex-shrink-0"
           >
-            Contact Setup Support
+            Contact IPTV Setup Support
           </Link>
         </div>
       </div>

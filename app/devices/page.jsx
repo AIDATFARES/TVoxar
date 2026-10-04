@@ -34,13 +34,13 @@ export default function DevicesPage() {
         {/* Hero */}
         <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Universal Streaming
+            Multi-Device IPTV Support
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Connect TVoxar to Your Preferred Hardware
+            Stream TVoxar IPTV on Any Screen or Streaming Device
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            TVoxar is compatible with practically any screen or streaming box on the market today. Select your device below for dedicated step-by-step setup instructions, or visit our central{" "}
+            TVoxar IPTV is fully optimized for virtually every modern screen and streaming hardware ecosystem. Whether you watch on an Amazon Firestick, Android TV box, Samsung or LG Smart TV, Apple TV, or PC, select your platform below for dedicated step-by-step setup guides, or visit our central{" "}
             <Link
               href="/installation"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
@@ -126,7 +126,7 @@ export default function DevicesPage() {
                   href={device.guideHref}
                   className="inline-flex items-center justify-between w-full p-4 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-primary/10 hover:bg-primary border border-primary/30 transition-all group-hover:shadow-glow"
                 >
-                  <span>Read Complete Setup Tutorial</span>
+                  <span>Read Complete IPTV Setup Guide</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
@@ -136,9 +136,9 @@ export default function DevicesPage() {
 
         {/* CTA Banner */}
         <CtaBanner
-          title="Ready to Set Up Your Device?"
-          description="Choose a TVoxar pass, get your credentials instantly, and start streaming in minutes."
-          buttonText="Explore Subscription Plans"
+          title="Ready to Set Up TVoxar IPTV on Your Device?"
+          description="Choose your TVoxar IPTV pass, receive instant activation credentials, and start streaming your favorite channels in minutes."
+          buttonText="Explore TVoxar IPTV Plans"
           buttonHref="/pricing"
         />
       </div>

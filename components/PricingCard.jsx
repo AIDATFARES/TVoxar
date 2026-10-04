@@ -71,7 +71,7 @@ export default function PricingCard({ plan, isFeatured = false }) {
             }`}
           >
             <Zap className="w-4 h-4" />
-            <span>{plan.ctaText || "Select This Pass"}</span>
+            <span>{plan.ctaText || "Select This IPTV Pass"}</span>
           </Link>
           <p className="text-[11px] text-center text-text-muted mt-2">
             No long-term contracts • <Link href="/refund-policy" className="hover:text-primary-light underline decoration-border/60 transition-colors">7-day guarantee</Link>

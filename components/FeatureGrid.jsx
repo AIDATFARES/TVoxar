@@ -5,59 +5,59 @@ export default function FeatureGrid() {
   const features = [
     {
       icon: Zap,
-      title: "Anti-Freeze 9.3 Technology",
+      title: "Anti-Freeze 9.3 Protocol",
       description:
-        "Proprietary smart load balancing distributes stream packets across redundant Tier-1 edge nodes, eliminating buffering and packet loss during high-traffic sports fixtures.",
-      tag: "Stream Reliability",
+        "Proprietary intelligent traffic routing distributes video data across redundant Tier-1 edge clusters, preventing stream buffering and packet loss during peak live sporting events.",
+      tag: "Stream Stability",
     },
     {
       icon: Tv,
-      title: "Ultra HD 4K & 60 FPS Feeds",
+      title: "True 4K UHD & 60 FPS Feeds",
       description:
-        "Experience stadium-like clarity with true 60fps high-bitrate video streams on major sports broadcasts, accompanied by crisp multichannel audio decoding.",
-      tag: "Superior Quality",
+        "Experience stadium-grade action with fluid 60fps high-bitrate video feeds across major international sports broadcasts, paired with pristine multi-channel audio decoding.",
+      tag: "Superior Visuals",
     },
     {
       icon: Film,
-      title: "Expansive VOD Cinema & Series",
+      title: "Expansive On-Demand VOD Catalog",
       description:
-        "Access an extensive, continually refreshed library of Hollywood releases, timeless classics, and international series with multiple subtitle options.",
-      tag: "On-Demand Library",
+        "Browse an ever-expanding, regularly updated archive of Hollywood blockbusters, timeless classics, and trending television series with multi-language subtitle tracks.",
+      tag: "Cinema & Series",
     },
     {
       icon: Calendar,
-      title: "7-Day Interactive EPG Guide",
+      title: "Interactive 7-Day EPG Guide",
       description:
-        "Never miss a match or episode with our integrated Electronic Program Guide (EPG). Browse upcoming schedules and utilize catch-up replays on compatible players.",
-      tag: "Live Schedules",
+        "Stay completely organized with an automated Electronic Program Guide. Track upcoming match kickoffs, check daily air times, and launch catch-up replays on supported players.",
+      tag: "Live TV Schedules",
     },
     {
       icon: Smartphone,
-      title: "Universal Multi-Device Support",
+      title: "Universal Multi-Device Compatibility",
       description:
-        "Stream seamlessly across Amazon Firestick, Samsung & LG Smart TVs, Apple TV, Android TV, Google Chromecast, Windows PC, macOS, and MAG receivers.",
-      tag: "Any Platform",
+        "Stream TVoxar IPTV effortlessly across Amazon Fire TV Stick, Samsung & LG Smart TVs, Apple TV, Android boxes, desktop computers, and dedicated STB receivers.",
+      tag: "All Platforms",
     },
     {
       icon: Shield,
-      title: "VPN-Friendly Infrastructure",
+      title: "VPN-Compatible Architecture",
       description:
-        "Full compatibility with NordVPN, ExpressVPN, Surfshark, and other major VPN protocols to bypass internet provider throttling and protect your connection.",
-      tag: "Privacy First",
+        "Full compatibility with NordVPN, ExpressVPN, Surfshark, and leading VPN providers to bypass ISP bandwidth restrictions and preserve your browsing privacy.",
+      tag: "Privacy & Speed",
     },
     {
       icon: Lock,
-      title: "Instant Automated Activation",
+      title: "Instant Automated IPTV Delivery",
       description:
-        "No waiting for manual verification. Your Xtream Codes and M3U playlist credentials are generated and dispatched immediately upon order confirmation.",
-      tag: "Zero Delay",
+        "No waiting for manual approvals. Your Xtream Codes API credentials and M3U playlist link are automatically provisioned and dispatched within minutes of ordering.",
+      tag: "Immediate Access",
     },
     {
       icon: Headphones,
-      title: "24/7 Technical Customer Support",
+      title: "24/7 Dedicated Technical Support",
       description:
-        "Our dedicated support team is available around the clock to assist you with device installation, application configuration, and stream troubleshooting.",
-      tag: "Always Here",
+        "Our experienced IPTV technicians are available around the clock to help you configure apps, optimize buffer settings, and troubleshoot device connections.",
+      tag: "Always Available",
     },
   ];
 
@@ -67,25 +67,25 @@ export default function FeatureGrid() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Cutting-Edge Streaming Technology
+            High-Performance IPTV Infrastructure
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Engineered for Flawless Entertainment
+            Engineered for High-Reliability IPTV Streaming
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Discover why cord-cutters and sports fans worldwide choose TVoxar IPTV for their daily{" "}
+            Discover why cord-cutters, sports enthusiasts, and movie lovers make TVoxar IPTV their trusted everyday streaming service. From zero-buffering live broadcasts to flexible passes, explore our{" "}
             <Link
               href="/channels"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
-              live television and cinema
+              live television and cinema channels
             </Link>{" "}
-            viewing with our flexible{" "}
+            and select your ideal{" "}
             <Link
               href="/pricing"
               className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
             >
-              subscription plans
+              IPTV subscription plan
             </Link>
             .
           </p>

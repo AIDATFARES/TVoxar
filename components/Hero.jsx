@@ -16,37 +16,37 @@ export default function Hero() {
             {/* Pill Tag */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface border border-border shadow-sm text-xs font-semibold text-primary-light">
               <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
-              <span>Next-Gen IPTV Streaming • Anti-Freeze 9.3 Protocol</span>
+              <span>Premium IPTV Streaming • Powered by Anti-Freeze 9.3</span>
             </div>
 
             {/* H1 Heading */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
-              Experience Premium TV Without Limits with{" "}
+              Stream Live TV, Sports &amp; Cinema with{" "}
               <span className="gradient-text-primary">TVoxar IPTV</span>
             </h1>
 
             {/* Subtext with internal links */}
             <p className="text-base sm:text-lg text-text-secondary leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Access thousands of crystal-clear 4K Ultra HD{" "}
+              Unlock thousands of crystal-clear 4K and Full HD{" "}
               <Link
                 href="/channels"
                 className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
               >
                 live TV channels
               </Link>
-              , worldwide sports events, and endless on-demand blockbusters. Engineered with{" "}
+              , world-class sports competitions, and on-demand movies. TVoxar IPTV integrates{" "}
               <Link
                 href="/features"
                 className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
               >
                 Anti-Freeze 9.3 multi-server technology
               </Link>{" "}
-              for seamless streaming across all your{" "}
+              for smooth, buffer-free playback across all your{" "}
               <Link
                 href="/devices"
                 className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
               >
-                supported devices
+                supported streaming devices
               </Link>
               .
             </p>
@@ -58,14 +58,14 @@ export default function Hero() {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl font-bold text-base text-white bg-gradient-to-r from-primary to-secondary hover:opacity-95 shadow-glow hover:shadow-xl transition-all transform hover:-translate-y-0.5"
               >
                 <Zap className="w-5 h-5" />
-                <span>Explore Subscription Plans</span>
+                <span>Get Your IPTV Subscription</span>
               </Link>
               <Link
                 href="/installation"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-base text-text-primary bg-surface hover:bg-surface-hover border border-border hover:border-primary/40 transition-all"
               >
                 <Tv className="w-5 h-5 text-primary-light" />
-                <span>Setup Guides by Device</span>
+                <span>Explore Device Setup Guides</span>
               </Link>
             </div>
 
@@ -73,15 +73,15 @@ export default function Hero() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-6 border-t border-border/80 text-xs sm:text-sm text-text-muted">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span className="text-text-secondary">4K UHD &amp; 60 FPS</span>
+                <span className="text-text-secondary">4K UHD &amp; 60 FPS Streams</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span className="text-text-secondary">Instant Activation</span>
+                <span className="text-text-secondary">Instant IPTV Activation</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span className="text-text-secondary">7-Day EPG Guide</span>
+                <span className="text-text-secondary">Synchronized 7-Day EPG</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
@@ -89,11 +89,11 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span className="text-text-secondary">Anti-Freeze 9.3</span>
+                <span className="text-text-secondary">Anti-Freeze 9.3 Engine</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span className="text-text-secondary">24/7 Human Support</span>
+                <span className="text-text-secondary">24/7 Priority Support</span>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Hero() {
                   <Wifi className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs font-bold text-white">Zero Buffering Guarantee</div>
+                  <div className="text-xs font-bold text-white">Buffer-Free IPTV Guarantee</div>
                   <div className="text-[11px] text-emerald-400">Adaptive Edge Routing Active</div>
                 </div>
               </div>
