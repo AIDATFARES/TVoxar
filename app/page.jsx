@@ -25,8 +25,8 @@ export default function HomePage() {
       {/* 1. Hero Section */}
       <Hero />
 
-      {/* 2. Key Technology & Features */}
-      <FeatureGrid />
+      {/* 2. 3-Step Setup Flow (From Order to Live Streaming in 3 Minutes) */}
+      <HowItWorks />
 
       {/* 3. Pricing Section */}
       <section className="py-24 relative" id="pricing">
@@ -66,8 +66,8 @@ export default function HomePage() {
       {/* 5. Supported Devices & Guides */}
       <DeviceGrid />
 
-      {/* 6. 3-Step Setup Flow */}
-      <HowItWorks />
+      {/* 6. Key Technology & Features (Engineered for Flawless Entertainment) */}
+      <FeatureGrid />
 
       {/* 7. Homepage Frequently Asked Questions */}
       <section className="py-20 bg-background-secondary/40">

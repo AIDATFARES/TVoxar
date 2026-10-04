@@ -61,10 +61,10 @@ export default function HowItWorks() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            Simple 3-Step Setup
+            Quick Onboarding
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Start Streaming TVoxar IPTV in Just 3 Minutes
+            From Order to Live Streaming in 3 Minutes
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
             Getting started with TVoxar IPTV is streamlined and automated. No complicated equipment, no technician visits, and no contracts. Review our{" "}

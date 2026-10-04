@@ -67,10 +67,10 @@ export default function FeatureGrid() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
-            High-Performance IPTV Infrastructure
+            Cutting-Edge Streaming Technology
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Engineered for High-Reliability IPTV Streaming
+            Engineered for Flawless Entertainment
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
             Discover why cord-cutters, sports enthusiasts, and movie lovers make TVoxar IPTV their trusted everyday streaming service. From zero-buffering live broadcasts to flexible passes, explore our{" "}
