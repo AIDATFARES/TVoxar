@@ -5,14 +5,16 @@ import { blogArticles } from "../../../lib/blog-data";
 const article = blogArticles.find((a) => a.slug === "best-smart-tv-iptv-apps-guide");
 
 export const metadata = {
-  title: `${article.title} - TVoxar IPTV`,
-  description: article.excerpt,
+  title: "TVoxar IPTV - Best Smart TV IPTV Apps for Samsung & LG | Tizen & webOS",
+  description:
+    "TVoxar IPTV comparison of the top Smart TV applications for Samsung and LG: IBO Player, Smart IPTV, Nanomid, and IPTV Smarters. Easy setup from the app store.",
   alternates: {
     canonical: `${siteConfig.domain}/blog/best-smart-tv-iptv-apps-guide`,
   },
   openGraph: {
-    title: article.title,
-    description: article.excerpt,
+    title: "TVoxar IPTV - Best Smart TV IPTV Apps for Samsung & LG | Tizen & webOS",
+    description:
+      "TVoxar IPTV comparison of the top Smart TV applications for Samsung and LG: IBO Player, Smart IPTV, Nanomid, and IPTV Smarters. Easy setup from the app store.",
     url: `${siteConfig.domain}/blog/best-smart-tv-iptv-apps-guide`,
     images: [{ url: `${siteConfig.domain}${article.image}` }],
   },

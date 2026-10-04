@@ -4,7 +4,7 @@ import { siteConfig } from "../../lib/site-config";
 import { AlertTriangle, ShieldCheck } from "lucide-react";
 
 export const metadata = {
-  title: "Disclaimer & DMCA Compliance - TVoxar IPTV",
+  title: "TVoxar IPTV - Legal Disclaimer & DMCA Compliance Notice",
   description:
     "TVoxar IPTV legal disclaimer and DMCA copyright compliance policy. Details on external media indexation and copyright infringement notice procedures.",
   alternates: {

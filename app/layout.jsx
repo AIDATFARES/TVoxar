@@ -8,15 +8,17 @@ import { siteConfig } from "../lib/site-config";
 export const metadata = {
   metadataBase: new URL(siteConfig.domain),
   title: {
-    default: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Streaming",
-    template: "%s | TVoxar IPTV",
+    default: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Subscription & Streaming",
+    template: "%s",
   },
-  description: siteConfig.description,
+  description:
+    "TVoxar IPTV delivers ultra-fast 4K live TV, 60 FPS sports, and VOD cinema with Anti-Freeze 9.3 technology. Get instant activation on Firestick, Smart TV, and Android.",
   keywords: [
     "TVoxar",
     "TVoxar IPTV",
-    "best iptv subscription",
-    "4k iptv",
+    "TVoxar IPTV subscription",
+    "best iptv service",
+    "4k iptv subscription",
     "iptv stream",
     "iptv firestick",
     "iptv smart tv",
@@ -45,8 +47,9 @@ export const metadata = {
     locale: "en_US",
     url: siteConfig.domain,
     siteName: siteConfig.brandName,
-    title: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Streaming",
-    description: siteConfig.description,
+    title: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Subscription & Streaming",
+    description:
+      "TVoxar IPTV delivers ultra-fast 4K live TV, 60 FPS sports, and VOD cinema with Anti-Freeze 9.3 technology. Get instant activation on Firestick, Smart TV, and Android.",
     images: [
       {
         url: `${siteConfig.domain}/og-image.svg`,
@@ -58,8 +61,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Streaming",
-    description: siteConfig.description,
+    title: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Subscription & Streaming",
+    description:
+      "TVoxar IPTV delivers ultra-fast 4K live TV, 60 FPS sports, and VOD cinema with Anti-Freeze 9.3 technology. Get instant activation on Firestick, Smart TV, and Android.",
     images: [`${siteConfig.domain}/og-image.svg`],
   },
   icons: {

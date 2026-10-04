@@ -4,7 +4,7 @@ import { siteConfig } from "../../lib/site-config";
 import { FileText } from "lucide-react";
 
 export const metadata = {
-  title: "Terms and Conditions - TVoxar IPTV",
+  title: "TVoxar IPTV - Terms & Conditions | Subscription Agreement & Usage Policy",
   description:
     "TVoxar IPTV terms and conditions of service. Details on account usage, single stream limits, acceptable use, and service continuity.",
   alternates: {

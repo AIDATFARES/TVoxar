@@ -6,9 +6,9 @@ import { siteConfig } from "../../lib/site-config";
 import { Flame, Tv, Smartphone, Apple, Monitor, Box, Radio, Cast, ArrowRight, Check } from "lucide-react";
 
 export const metadata = {
-  title: "Supported Devices & Compatibility Guide - TVoxar IPTV",
+  title: "TVoxar IPTV - Supported Devices & Compatibility | Firestick, Smart TV & Android",
   description:
-    "See all devices compatible with TVoxar IPTV: Firestick, Samsung & LG Smart TV, Android, Apple TV, PC, Mac, MAG, Formuler, and Roku with setup links.",
+    "TVoxar IPTV works seamlessly across Amazon Firestick, Samsung & LG Smart TVs, Android TV, Apple TV, PC, MAG, and Formuler. View apps and setup guides.",
   alternates: {
     canonical: `${siteConfig.domain}/devices`,
   },

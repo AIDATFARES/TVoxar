@@ -6,9 +6,9 @@ import { siteConfig } from "../../lib/site-config";
 import { HelpCircle, MessageSquare } from "lucide-react";
 
 export const metadata = {
-  title: "Frequently Asked Questions (FAQ) - TVoxar IPTV",
+  title: "TVoxar IPTV - Frequently Asked Questions | Setup, Speeds & Subscriptions",
   description:
-    "Find answers to all your questions about TVoxar IPTV: setup times, device compatibility, internet speeds, payment methods, VPN support, and Anti-Freeze 9.3.",
+    "TVoxar IPTV frequently asked questions: setup times, internet speed requirements, device compatibility, VPN support, pricing plans, and Anti-Freeze 9.3 stability.",
   alternates: {
     canonical: `${siteConfig.domain}/faq`,
   },

@@ -4,9 +4,9 @@ import { siteConfig } from "../../lib/site-config";
 import { ShieldAlert, CheckCircle2, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Refund Policy & 7-Day Guarantee - TVoxar IPTV",
+  title: "TVoxar IPTV - Refund Policy | 7-Day Technical Satisfaction Guarantee",
   description:
-    "TVoxar IPTV transparent refund policy. Learn about our 7-day technical satisfaction guarantee, eligibility criteria, and dispute resolution process.",
+    "TVoxar IPTV 7-day money-back guarantee. Read our transparent refund policy, trial terms, and dedicated technical support resolution process.",
   alternates: {
     canonical: `${siteConfig.domain}/refund-policy`,
   },

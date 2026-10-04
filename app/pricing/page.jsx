@@ -7,9 +7,9 @@ import { siteConfig } from "../../lib/site-config";
 import { Check, ShieldCheck, Zap, Headphones, Lock, Clock } from "lucide-react";
 
 export const metadata = {
-  title: "IPTV Subscription Plans & Pricing - TVoxar IPTV",
+  title: "TVoxar IPTV - Pricing & Subscription Plans | 4K Channels & Anti-Freeze",
   description:
-    "Explore transparent TVoxar IPTV pricing plans. Choose from 1-month, 3-month, 6-month, or 12-month passes with 4K UHD channels, live sports, and instant activation.",
+    "TVoxar IPTV subscription passes with zero contracts. Choose 1, 3, 6, or 12 months with instant automated setup, 4K UHD streaming, and our 7-day guarantee.",
   alternates: {
     canonical: `${siteConfig.domain}/pricing`,
   },

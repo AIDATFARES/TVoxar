@@ -2,8 +2,9 @@ import Link from "next/link";
 import { Tv, ArrowLeft, Home, Zap } from "lucide-react";
 
 export const metadata = {
-  title: "404 - Page Not Found | TVoxar IPTV",
-  description: "The requested page could not be located on TVoxar IPTV. Please check the URL or return to our homepage.",
+  title: "TVoxar IPTV - 404 Page Not Found | Stream Offline",
+  description:
+    "TVoxar IPTV 404 notification: the requested page or stream could not be found. Return to our homepage or explore our 4K IPTV subscription plans and channel guide.",
 };
 
 export default function NotFound() {

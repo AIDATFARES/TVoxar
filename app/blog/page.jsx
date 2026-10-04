@@ -7,9 +7,9 @@ import { blogArticles } from "../../lib/blog-data";
 import { Clock, Calendar, ArrowRight, BookOpen } from "lucide-react";
 
 export const metadata = {
-  title: "IPTV Blog, Guides & Streaming Insights - TVoxar IPTV",
+  title: "TVoxar IPTV - Blog, Streaming Guides & Technical Tutorials",
   description:
-    "Explore in-depth IPTV tutorials, troubleshooting guides, IPTV player comparisons, and streaming tips published by the TVoxar engineering team.",
+    "TVoxar IPTV streaming blog and guides: in-depth player reviews, anti-buffering fixes, Smart TV setup tutorials, and VPN tips from our engineering team.",
   alternates: {
     canonical: `${siteConfig.domain}/blog`,
   },

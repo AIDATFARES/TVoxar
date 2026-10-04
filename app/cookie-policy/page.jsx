@@ -4,9 +4,9 @@ import { siteConfig } from "../../lib/site-config";
 import { Cookie } from "lucide-react";
 
 export const metadata = {
-  title: "Cookie Policy - TVoxar IPTV",
+  title: "TVoxar IPTV - Cookie Policy | Essential Cookies & Privacy Preferences",
   description:
-    "TVoxar IPTV cookie policy. Learn how we utilize strictly essential cookies and anonymous session identifiers to operate our website and portal.",
+    "TVoxar IPTV cookie policy. Learn how essential session cookies and performance telemetry ensure secure, lightning-fast web browsing.",
   alternates: {
     canonical: `${siteConfig.domain}/cookie-policy`,
   },

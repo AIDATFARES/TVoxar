@@ -5,9 +5,9 @@ import { siteConfig } from "../../lib/site-config";
 import { Zap, Tv, ShieldCheck, Film, Calendar, Globe, Cpu, Server, CheckCircle2, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "IPTV Features & Anti-Freeze 9.3 Technology - TVoxar IPTV",
+  title: "TVoxar IPTV - Features & Anti-Freeze 9.3 Technology | 4K 60FPS Streaming",
   description:
-    "Discover the engineering behind TVoxar IPTV: Anti-Freeze 9.3 streaming protocol, true 60fps 4K feeds, 7-day EPG guide, and redundant server nodes for zero buffering.",
+    "TVoxar IPTV streaming architecture features proprietary Anti-Freeze 9.3 multi-server routing, native 60 FPS sports, 7-day EPG schedule, and 99.9% uptime SLA.",
   alternates: {
     canonical: `${siteConfig.domain}/features`,
   },

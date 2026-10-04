@@ -4,9 +4,9 @@ import { siteConfig } from "../../lib/site-config";
 import { ShieldCheck } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy - TVoxar IPTV",
+  title: "TVoxar IPTV - Privacy Policy | Data Protection & Security Standards",
   description:
-    "TVoxar IPTV privacy policy. Learn how we collect, protect, and handle subscriber data with strict encryption and zero third-party data selling.",
+    "TVoxar IPTV privacy policy explains how we protect subscriber data with end-to-end encryption, secure payments, and strict zero-logging practices.",
   alternates: {
     canonical: `${siteConfig.domain}/privacy-policy`,
   },

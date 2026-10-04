@@ -11,9 +11,9 @@ import { siteConfig } from "../lib/site-config";
 import { Zap, ShieldCheck, Sparkles, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "TVoxar IPTV Official Website - Next-Gen 4K IPTV Subscription",
+  title: "TVoxar IPTV - Official Website | Next-Gen 4K IPTV Subscription & Streaming",
   description:
-    "Official TVoxar IPTV website. Get instant access to premium 4K UHD live TV channels, live sports, and VOD movies with Anti-Freeze 9.3 streaming technology.",
+    "TVoxar IPTV delivers ultra-fast 4K live TV, 60 FPS sports, and VOD cinema with Anti-Freeze 9.3 technology. Get instant activation on Firestick, Smart TV, and Android.",
   alternates: {
     canonical: siteConfig.domain,
   },

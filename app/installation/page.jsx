@@ -6,9 +6,9 @@ import { installationGuides } from "../../lib/installation-data";
 import { Flame, Tv, Smartphone, Apple, Monitor, Box, Radio, Cast, ArrowRight, Clock, Gauge, ShieldCheck } from "lucide-react";
 
 export const metadata = {
-  title: "IPTV Installation Center & Setup Guides (2026) - TVoxar IPTV",
+  title: "TVoxar IPTV - Step-by-Step Installation Guides & Setup Center",
   description:
-    "Official TVoxar IPTV installation center. Step-by-step setup tutorials for Amazon Firestick, Samsung & LG Smart TV, Android, Apple TV, Windows, MAG, and Formuler.",
+    "TVoxar IPTV setup tutorials for all streaming devices. Easy 3-minute installation guides for Firestick, Smart TVs, Android TV, Apple TV, MAG, and Windows/Mac.",
   alternates: {
     canonical: `${siteConfig.domain}/installation`,
   },

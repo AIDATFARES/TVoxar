@@ -5,9 +5,9 @@ import { siteConfig } from "../../lib/site-config";
 import { Trophy, Film, Newspaper, Baby, Compass, Globe2, CheckCircle2, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Channel Line-Up & International Packages - TVoxar IPTV",
+  title: "TVoxar IPTV - Channel Line-Up & Live Sports | 4K Cinema & Global Networks",
   description:
-    "Explore the TVoxar IPTV channel guide: Live Sports feeds, 4K Cinema channels, 24/7 News, Kids entertainment, and international networks from USA, UK, Canada, and Europe.",
+    "TVoxar IPTV channel guide features unrestricted 60 FPS sports feeds, 4K movies, 24/7 news, and international country packages with automated 7-day EPG.",
   alternates: {
     canonical: `${siteConfig.domain}/channels`,
   },
