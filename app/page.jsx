@@ -28,16 +28,7 @@ export default function HomePage() {
       {/* 2. Key Technology & Features */}
       <FeatureGrid />
 
-      {/* 3. Live Sports & Cinema Showcase */}
-      <EntertainmentShowcase />
-
-      {/* 4. Supported Devices & Guides */}
-      <DeviceGrid />
-
-      {/* 5. 3-Step Setup Flow */}
-      <HowItWorks />
-
-      {/* 6. Pricing Section */}
+      {/* 3. Pricing Section */}
       <section className="py-24 relative" id="pricing">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
@@ -68,6 +59,15 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 4. Live Sports & Cinema Showcase */}
+      <EntertainmentShowcase />
+
+      {/* 5. Supported Devices & Guides */}
+      <DeviceGrid />
+
+      {/* 6. 3-Step Setup Flow */}
+      <HowItWorks />
 
       {/* 7. Homepage Frequently Asked Questions */}
       <section className="py-20 bg-background-secondary/40">
