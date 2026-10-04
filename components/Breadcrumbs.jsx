@@ -22,7 +22,7 @@ export default function Breadcrumbs({ items = [] }) {
       <JsonLd data={breadcrumbSchema} />
       <nav
         aria-label="Breadcrumb"
-        className="flex items-center space-x-2 text-xs sm:text-sm text-text-muted py-3 px-1 overflow-x-auto whitespace-nowrap"
+        className="flex items-center space-x-2 text-xs sm:text-sm text-text-muted pt-1 pb-2 px-1 overflow-x-auto whitespace-nowrap"
       >
         {fullItems.map((item, idx) => {
           const isLast = idx === fullItems.length - 1;

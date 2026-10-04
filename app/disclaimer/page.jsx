@@ -13,11 +13,11 @@ export const metadata = {
 
 export default function DisclaimerPage() {
   return (
-    <div className="pt-24 pb-16">
+    <div className="pt-20 pb-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Disclaimer & DMCA", href: "/disclaimer" }]} />
 
-        <div className="my-8 space-y-4">
+        <div className="mt-3 mb-6 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-xs font-bold text-amber-400 uppercase tracking-wider">
             <AlertTriangle className="w-3.5 h-3.5" />
             <span>Legal Notice</span>

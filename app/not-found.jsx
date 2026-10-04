@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function NotFound() {
   return (
-    <div className="pt-32 pb-20 min-h-[70vh] flex items-center justify-center">
+    <div className="pt-20 pb-16 min-h-[70vh] flex items-center justify-center">
       <div className="max-w-xl mx-auto px-4 text-center space-y-6">
         <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary-light mx-auto">
           <Tv className="w-8 h-8" />

@@ -4,7 +4,7 @@ import { Zap, PlayCircle, ShieldCheck, Tv, Wifi, CheckCircle2, Star } from "luci
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <section className="relative pt-20 pb-16 md:pt-24 md:pb-20 overflow-hidden">
       {/* Background radial glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-primary/20 rounded-full blur-[120px] pointer-events-none -z-10" />
       <div className="absolute top-1/3 left-1/4 w-[400px] h-[250px] bg-secondary/15 rounded-full blur-[100px] pointer-events-none -z-10" />

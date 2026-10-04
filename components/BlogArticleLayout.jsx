@@ -41,7 +41,7 @@ export default function BlogArticleLayout({ article }) {
   };
 
   return (
-    <article className="pt-24 pb-16">
+    <article className="pt-20 pb-12">
       <JsonLd data={articleSchema} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,7 +53,7 @@ export default function BlogArticleLayout({ article }) {
         />
 
         {/* Back Link */}
-        <div className="my-6">
+        <div className="mt-2 mb-4">
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 text-xs font-semibold text-text-muted hover:text-primary-light transition-colors"

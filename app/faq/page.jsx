@@ -50,12 +50,12 @@ export default function FaqPage() {
   ];
 
   return (
-    <div className="pt-24 pb-16">
+    <div className="pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Frequently Asked Questions", href: "/faq" }]} />
 
         {/* Hero */}
-        <div className="text-center max-w-3xl mx-auto my-12 space-y-4">
+        <div className="text-center max-w-3xl mx-auto mt-4 mb-10 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
             Help &amp; Knowledge Base
           </span>
