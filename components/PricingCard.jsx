@@ -71,14 +71,33 @@ export default function PricingCard({ plan, isFeatured = false }) {
             }
             target="_blank"
             rel="noopener noreferrer"
-            className={`w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm transition-all duration-200 ${
+            className={`relative group overflow-hidden w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-[1.03] active:scale-[0.98] ${
               plan.popular || isFeatured
-                ? "text-white bg-gradient-to-r from-primary to-secondary hover:opacity-95 shadow-glow"
-                : "text-text-primary bg-background hover:bg-surface-hover border border-border hover:border-primary/40 hover:text-white"
+                ? "text-white bg-gradient-to-r from-primary via-blue-500 to-secondary hover:opacity-95 shadow-glow animate-pulse-glow hover:shadow-[0_0_35px_rgba(59,130,246,0.6)]"
+                : "text-text-primary bg-background/90 hover:bg-surface-hover border border-border hover:border-primary/70 hover:text-white animate-pulse-border hover:shadow-[0_0_24px_rgba(37,99,235,0.4)]"
             }`}
           >
-            <Zap className="w-4 h-4" />
-            <span>{plan.ctaText || "Select This IPTV Pass"}</span>
+            {/* Shimmer sweep effect */}
+            {plan.popular || isFeatured ? (
+              <span
+                className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/25 to-transparent pointer-events-none animate-shimmer-sweep"
+                aria-hidden="true"
+              />
+            ) : (
+              <span
+                className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 pointer-events-none"
+                aria-hidden="true"
+              />
+            )}
+
+            <Zap
+              className={`relative z-10 w-4 h-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12 ${
+                plan.popular || isFeatured
+                  ? "text-cyan-200"
+                  : "text-primary-light group-hover:text-cyan-300"
+              }`}
+            />
+            <span className="relative z-10">{plan.ctaText || "Select This IPTV Pass"}</span>
           </a>
           <p className="text-[11px] text-center text-text-muted mt-2">
             No long-term contracts • <Link href="/refund-policy" className="hover:text-primary-light underline decoration-border/60 transition-colors">7-day guarantee</Link>
