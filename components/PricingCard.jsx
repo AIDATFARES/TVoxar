@@ -62,17 +62,24 @@ export default function PricingCard({ plan, isFeatured = false }) {
 
         {/* CTA Button */}
         <div className="pt-4 mt-auto">
-          <Link
-            href={plan.checkoutUrl || `/contact?plan=${plan.id}`}
+          <a
+            href={
+              plan.checkoutUrl ||
+              `https://wa.me/447882781998?text=${encodeURIComponent(
+                `Hello TVoxar, I would like to order the ${plan.name} (${plan.price}).`
+              )}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
             className={`w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm transition-all duration-200 ${
               plan.popular || isFeatured
                 ? "text-white bg-gradient-to-r from-primary to-secondary hover:opacity-95 shadow-glow"
-                : "text-text-primary bg-background hover:bg-surface-hover border border-border hover:border-primary/40"
+                : "text-text-primary bg-background hover:bg-surface-hover border border-border hover:border-primary/40 hover:text-white"
             }`}
           >
             <Zap className="w-4 h-4" />
             <span>{plan.ctaText || "Select This IPTV Pass"}</span>
-          </Link>
+          </a>
           <p className="text-[11px] text-center text-text-muted mt-2">
             No long-term contracts • <Link href="/refund-policy" className="hover:text-primary-light underline decoration-border/60 transition-colors">7-day guarantee</Link>
           </p>
