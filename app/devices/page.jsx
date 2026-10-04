@@ -47,7 +47,7 @@ export default function DevicesPage() {
         {/* Devices Visual Graphic */}
         <div className="max-w-4xl mx-auto my-12 rounded-2xl overflow-hidden border border-border bg-surface shadow-card">
           <Image
-            src="/images/devices-all.svg"
+            src="/images/devices-all.jpg"
             alt="TVoxar Supported Devices Hardware Family Mockup"
             width={700}
             height={360}

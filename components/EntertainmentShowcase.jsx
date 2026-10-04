@@ -53,7 +53,7 @@ export default function EntertainmentShowcase() {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-border bg-surface shadow-card group">
               <Image
-                src="/images/sports-live.svg"
+                src="/images/sports-live.jpg"
                 alt="TVoxar Live Sports Streaming Channels and PPV Mockup"
                 width={600}
                 height={380}
@@ -110,7 +110,7 @@ export default function EntertainmentShowcase() {
           <div className="lg:col-span-6 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden border border-border bg-surface shadow-card group">
               <Image
-                src="/images/movies-vod.svg"
+                src="/images/movies-vod.jpg"
                 alt="TVoxar VOD Movies and TV Series Catalog Mockup"
                 width={600}
                 height={380}

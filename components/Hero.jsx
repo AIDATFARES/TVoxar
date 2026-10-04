@@ -86,7 +86,7 @@ export default function Hero() {
               {/* Main TV Mockup */}
               <div className="relative rounded-2xl overflow-hidden border border-border/80 bg-surface shadow-2xl">
                 <Image
-                  src="/images/hero-stream.svg"
+                  src="/images/hero-stream.jpg"
                   alt="TVoxar IPTV 4K Live Streaming Mockup on Television"
                   width={800}
                   height={500}
