@@ -85,3 +85,65 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #334155;
 }
+
+/* Button Animations */
+@keyframes shimmer-sweep {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  40%, 100% {
+    transform: translateX(250%) skewX(-20deg);
+  }
+}
+
+.animate-shimmer-sweep {
+  animation: shimmer-sweep 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes pulse-glow-primary {
+  0%, 100% {
+    box-shadow: 0 0 18px -2px rgba(37, 99, 235, 0.45), 0 0 35px -5px rgba(124, 58, 237, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 30px 4px rgba(37, 99, 235, 0.75), 0 0 50px 8px rgba(124, 58, 237, 0.55);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow-primary 2.8s ease-in-out infinite;
+}
+
+@keyframes pulse-glow-whatsapp {
+  0%, 100% {
+    box-shadow: 0 0 10px -2px rgba(37, 211, 102, 0.3), 0 0 0 1px rgba(37, 211, 102, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 25px 3px rgba(37, 211, 102, 0.6), 0 0 0 2px rgba(37, 211, 102, 0.55);
+  }
+}
+
+.animate-pulse-whatsapp {
+  animation: pulse-glow-whatsapp 2.5s ease-in-out infinite;
+}
+
+@keyframes icon-wiggle {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  20% {
+    transform: rotate(-12deg) scale(1.15);
+  }
+  40% {
+    transform: rotate(12deg) scale(1.15);
+  }
+  60% {
+    transform: rotate(-8deg) scale(1.1);
+  }
+  80% {
+    transform: rotate(6deg) scale(1.05);
+  }
+}
+
+.group:hover .group-hover-wiggle {
+  animation: icon-wiggle 0.7s ease-in-out;
+}
