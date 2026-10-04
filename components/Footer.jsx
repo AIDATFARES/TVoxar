@@ -66,9 +66,20 @@ export default function Footer() {
             <p className="text-text-muted leading-relaxed text-sm pr-6">
               TVoxar IPTV is a high-performance streaming service delivering ultra-crisp 4K UHD and 60 FPS live sports, premium television networks, and video on demand to screens worldwide. Built on resilient global edge infrastructure powered by our proprietary Anti-Freeze 9.3 engine.
             </p>
-            <div className="flex items-center gap-2 pt-2 text-xs text-text-muted">
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              <span>All TVoxar Streaming Edge Nodes Operational</span>
+            <div className="flex flex-wrap items-center gap-3 pt-2 text-xs">
+              <a
+                href={siteConfig.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] hover:bg-[#25D366]/20 transition-colors font-semibold"
+              >
+                <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span>
+                <span>WhatsApp: {siteConfig.whatsapp}</span>
+              </a>
+              <div className="flex items-center gap-2 text-text-muted">
+                <span className="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span>Edge Nodes Active</span>
+              </div>
             </div>
           </div>
 

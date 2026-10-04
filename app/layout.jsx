@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import JsonLd from "../components/JsonLd";
+import WhatsAppButton from "../components/WhatsAppButton";
 import { siteConfig } from "../lib/site-config";
 
 export const metadata = {
@@ -117,6 +118,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );
