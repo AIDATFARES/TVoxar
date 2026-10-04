@@ -40,7 +40,21 @@ export default function InstallationHubPage() {
             TVoxar IPTV Installation Center
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Choose your device below for complete step-by-step instructions. Most setups take under 5 minutes and require only your TVoxar login credentials and internet connection.
+            Choose your device below for complete step-by-step instructions. Most setups take under 5 minutes and require only your TVoxar login credentials and internet connection. If you don&apos;t have an active account yet, choose an{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV subscription plan
+            </Link>{" "}
+            first, or review our{" "}
+            <Link
+              href="/devices"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              supported devices overview
+            </Link>
+            .
           </p>
         </div>
 
@@ -53,7 +67,11 @@ export default function InstallationHubPage() {
             <div>
               <h3 className="font-bold text-white text-sm mb-1">1. Active TVoxar Pass</h3>
               <p className="text-xs text-text-muted">
-                Keep your activation email handy with your Username, Password, and Server URL.
+                Keep your activation email handy with your credentials. Need a pass?{" "}
+                <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
+                  Select your plan here
+                </Link>
+                .
               </p>
             </div>
           </div>
@@ -65,7 +83,11 @@ export default function InstallationHubPage() {
             <div>
               <h3 className="font-bold text-white text-sm mb-1">2. 15+ Mbps Internet</h3>
               <p className="text-xs text-text-muted">
-                Connect via 5GHz Wi-Fi or Ethernet LAN for steady 4K 60fps streaming.
+                Connect via 5GHz Wi-Fi or Ethernet. Experiencing lag? See our{" "}
+                <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+                  anti-buffering guide
+                </Link>
+                .
               </p>
             </div>
           </div>
@@ -77,7 +99,11 @@ export default function InstallationHubPage() {
             <div>
               <h3 className="font-bold text-white text-sm mb-1">3. Approx. 5 Minutes</h3>
               <p className="text-xs text-text-muted">
-                Follow our clear steps to download the recommended app and log in.
+                Download your chosen player and log in. Compare options in our{" "}
+                <Link href="/blog/best-iptv-players-2026" className="text-primary-light hover:underline font-semibold">
+                  best IPTV players 2026 guide
+                </Link>
+                .
               </p>
             </div>
           </div>
@@ -131,7 +157,11 @@ export default function InstallationHubPage() {
         <div className="my-16 text-center bg-surface border border-border rounded-2xl p-8 max-w-3xl mx-auto space-y-4">
           <h3 className="text-xl font-bold text-white">Need Live Setup Assistance?</h3>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-            If you run into any difficulty or an unusual error code during configuration, contact TVoxar customer support. Our technical team is available 24/7.
+            If you run into any difficulty or an unusual error code during configuration, check our{" "}
+            <Link href="/faq" className="text-primary-light hover:underline font-semibold">
+              installation FAQ
+            </Link>{" "}
+            or contact TVoxar customer support. Our technical team is available 24/7.
           </p>
           <Link
             href="/contact"

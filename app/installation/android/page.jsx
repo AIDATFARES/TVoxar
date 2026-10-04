@@ -40,7 +40,28 @@ export default function AndroidGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Quickly configure TVoxar on Android TV boxes, Google TV with Chromecast, Nvidia Shield, and Android smartphones using TiviMate or IPTV Smarters Pro.
+            Quickly configure TVoxar on Android TV boxes, Google TV with Chromecast, Nvidia Shield, and Android smartphones using{" "}
+            <Link
+              href="/blog/tivimate-premium-features-setup"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              TiviMate Premium
+            </Link>{" "}
+            or{" "}
+            <Link
+              href="/blog/iptv-smarters-pro-complete-setup-guide"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV Smarters Pro
+            </Link>
+            . Need an active pass? View our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plans
+            </Link>
+            .
           </p>
         </div>
 
@@ -104,6 +125,17 @@ export default function AndroidGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            For advanced buffer cache configuration or hardware acceleration tips on Android, read our{" "}
+            <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+              buffering fix tutorial
+            </Link>{" "}
+            or speak with our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              support specialists
+            </Link>
+            .
+          </p>
         </div>
 
         <CtaBanner

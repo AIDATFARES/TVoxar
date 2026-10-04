@@ -136,6 +136,7 @@ export default function BlogArticleLayout({ article }) {
                 .replace(/### (.*)/g, "<h3 class='text-xl sm:text-2xl font-bold text-white mt-8 mb-3'>$1</h3>")
                 .replace(/## (.*)/g, "<h2 class='text-2xl sm:text-3xl font-extrabold text-white mt-10 mb-4'>$1</h2>")
                 .replace(/\*\*(.*?)\*\*/g, "<strong class='text-white font-semibold'>$1</strong>")
+                .replace(/\[(.*?)\]\((.*?)\)/g, "<a href='$2' class='text-primary-light hover:text-white underline decoration-primary/50 underline-offset-2 transition-colors font-medium'>$1</a>")
                 .replace(/---/g, "<hr class='border-border my-8' />"),
             }}
           />

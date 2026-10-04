@@ -40,7 +40,21 @@ export default function FormulerGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Integrate TVoxar IPTV with Formuler Z8, Z10, and Z11 devices using MYTVOnline for instantaneous channel switching, catchup replays, and recording.
+            Integrate TVoxar IPTV with Formuler Z8, Z10, and Z11 devices using MYTVOnline for instantaneous channel switching, catchup replays, and recording. Get your credentials through our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plans
+            </Link>{" "}
+            and discover our{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              60fps stream features
+            </Link>
+            .
           </p>
         </div>
 
@@ -104,6 +118,13 @@ export default function FormulerGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Need help syncing EPG XMLTV offsets or setting up catchup recording on Formuler? Contact our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              Formuler support desk
+            </Link>{" "}
+            anytime.
+          </p>
         </div>
 
         <CtaBanner

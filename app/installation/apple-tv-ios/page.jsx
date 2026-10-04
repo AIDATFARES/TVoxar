@@ -40,7 +40,21 @@ export default function AppleGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Configure TVoxar IPTV on Apple TV 4K, iPhone, and iPad using IPTVX or Smarters Player Lite with hardware decoding and seamless iCloud favorites syncing.
+            Configure TVoxar IPTV on Apple TV 4K, iPhone, and iPad using IPTVX or Smarters Player Lite with hardware decoding and seamless iCloud syncing. Need an active pass? Select your{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plan
+            </Link>{" "}
+            or compare apps in our{" "}
+            <Link
+              href="/blog/best-iptv-players-2026"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              best IPTV players guide
+            </Link>
+            .
           </p>
         </div>
 
@@ -104,6 +118,13 @@ export default function AppleGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Encountering audio passthrough or M3U playlist import issues on tvOS? Reach our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              Apple configuration support desk
+            </Link>{" "}
+            for personal assistance.
+          </p>
         </div>
 
         <CtaBanner

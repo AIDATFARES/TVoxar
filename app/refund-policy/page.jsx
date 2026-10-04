@@ -35,7 +35,7 @@ export default function RefundPolicyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">1. Our 7-Day Technical Guarantee</h2>
             <p>
-              At TVoxar, we take pride in our Anti-Freeze 9.3 streaming infrastructure. If you experience verified technical setup issues that our technical support team cannot resolve within your first <strong className="text-white">seven (7) calendar days</strong> of service activation, you are entitled to request a full refund.
+              At TVoxar, we take pride in our <Link href="/features" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">Anti-Freeze 9.3 streaming infrastructure</Link>. If you experience verified technical setup issues that our <Link href="/contact" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">technical support team</Link> cannot resolve within your first <strong className="text-white">seven (7) calendar days</strong> of <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">subscription service activation</Link>, you are entitled to request a full refund.
             </p>
           </section>
 
@@ -46,7 +46,7 @@ export default function RefundPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
               <li>Your refund request must be formally submitted within 7 calendar days of your initial order date.</li>
-              <li>You must have contacted our customer care team to attempt troubleshooting (e.g. testing alternative player apps, checking connection credentials, or verifying network settings).</li>
+              <li>You must have contacted our customer care team to attempt troubleshooting (e.g. testing <Link href="/blog/best-iptv-players-2026" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">recommended IPTV player apps</Link>, checking credentials, or reviewing our <Link href="/installation" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">step-by-step setup guides</Link>).</li>
               <li>You must provide your order transaction ID and registered email address.</li>
             </ul>
           </section>
@@ -58,9 +58,9 @@ export default function RefundPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
               <li>Requests submitted after the 7-day satisfaction window has expired.</li>
-              <li>Issues caused purely by insufficient subscriber broadband speed (under 15 Mbps) or unstable local Wi-Fi networks where the subscriber declines to connect via Ethernet.</li>
-              <li>Simultaneous stream violations (using more than 1 device at the same moment on a 1-screen subscription).</li>
-              <li>Temporary maintenance on a single specific third-party sports channel while thousands of other feeds remain fully operational.</li>
+              <li>Issues caused purely by insufficient subscriber broadband speed (under 15 Mbps) or unstable local Wi-Fi networks where the subscriber declines to connect via Ethernet. See our <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">guide on fixing stream buffering</Link>.</li>
+              <li>Simultaneous stream violations (using more devices at once than permitted; explore our multi-device options in <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">TVoxar pricing plans</Link>).</li>
+              <li>Temporary maintenance on a single specific third-party sports channel while thousands of other <Link href="/channels" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">international live channels</Link> remain fully operational.</li>
             </ul>
           </section>
 
@@ -74,9 +74,24 @@ export default function RefundPolicyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">5. How to Submit a Refund Request</h2>
             <p>
-              To initiate a refund request, send an email to <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span> with the subject line <strong className="text-white">&quot;Refund Request - [Your Order ID]&quot;</strong> and a brief summary of the technical obstacle encountered.
+              To initiate a refund request, send an email to <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span> or submit a ticket via our <Link href="/contact" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">24/7 contact support desk</Link> with the subject line <strong className="text-white">&quot;Refund Request - [Your Order ID]&quot;</strong> and a brief summary of the technical obstacle encountered.
             </p>
           </section>
+
+          <div className="pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4 text-xs">
+            <span className="text-text-muted">Looking for terms, answers, or plan details?</span>
+            <div className="flex items-center gap-4">
+              <Link href="/terms-and-conditions" className="text-primary-light hover:underline font-semibold">
+                Terms &amp; Conditions &rarr;
+              </Link>
+              <Link href="/faq" className="text-primary-light hover:underline font-semibold">
+                Read FAQ &rarr;
+              </Link>
+              <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
+                View Plans &rarr;
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

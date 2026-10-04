@@ -33,7 +33,28 @@ export default function BlogIndexPage() {
             TVoxar IPTV Guides &amp; Tutorials
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Expert articles covering the latest IPTV player applications, network optimization techniques, Smart TV apps, and privacy configurations.
+            Expert articles covering the latest IPTV player applications, network optimization techniques, Smart TV apps, and privacy configurations. Ready to get started? View our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV subscription plans
+            </Link>
+            , explore our{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              Anti-Freeze features
+            </Link>
+            , or browse our{" "}
+            <Link
+              href="/installation"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              device installation center
+            </Link>
+            .
           </p>
         </div>
 

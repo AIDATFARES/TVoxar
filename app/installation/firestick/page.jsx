@@ -41,7 +41,21 @@ export default function FirestickGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Follow this step-by-step walkthrough to set up TVoxar IPTV on any Amazon Firestick model (Lite, 4K, 4K Max, or Fire TV Cube) using the Downloader application.
+            Follow this step-by-step walkthrough to set up TVoxar IPTV on any Amazon Firestick model (Lite, 4K, 4K Max, or Fire TV Cube) using the Downloader application. Before beginning, make sure you have an active{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              TVoxar subscription pass
+            </Link>{" "}
+            and review our{" "}
+            <Link
+              href="/devices"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              supported devices overview
+            </Link>
+            .
           </p>
         </div>
 
@@ -108,6 +122,17 @@ export default function FirestickGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Still facing stream playback issues? Consult our complete{" "}
+            <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+              IPTV buffering and freezing troubleshooting guide
+            </Link>{" "}
+            or open a ticket with our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              24/7 technical team
+            </Link>
+            .
+          </p>
         </div>
 
         {/* Other Guides Links */}

@@ -52,12 +52,22 @@ export default function CtaBanner({
               </div>
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                <span>No long-term commitments</span>
+                <span>No long-term contracts</span>
               </div>
-              <div className="flex items-center gap-1.5">
+              <Link
+                href="/refund-policy"
+                className="flex items-center gap-1.5 hover:text-emerald-400 transition-colors"
+              >
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                <span>7-Day satisfaction guarantee</span>
-              </div>
+                <span className="underline decoration-emerald-400/30 underline-offset-2">7-Day satisfaction guarantee</span>
+              </Link>
+              <Link
+                href="/contact"
+                className="flex items-center gap-1.5 hover:text-primary-light transition-colors"
+              >
+                <CheckCircle2 className="w-4 h-4 text-primary-light" />
+                <span className="underline decoration-primary/30 underline-offset-2">24/7 dedicated support desk</span>
+              </Link>
             </div>
           </div>
         </div>

@@ -40,7 +40,28 @@ export default function DevicesPage() {
             Connect TVoxar to Your Preferred Hardware
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            TVoxar is compatible with practically any screen or streaming box on the market today. Select your device below for dedicated step-by-step setup instructions.
+            TVoxar is compatible with practically any screen or streaming box on the market today. Select your device below for dedicated step-by-step setup instructions, or visit our central{" "}
+            <Link
+              href="/installation"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              installation hub
+            </Link>
+            . Need to order your credentials first? Explore our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plans
+            </Link>{" "}
+            or learn about our{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              Anti-Freeze streaming technology
+            </Link>
+            .
           </p>
         </div>
 

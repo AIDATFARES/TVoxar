@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { siteConfig } from "../../lib/site-config";
 import { FileText } from "lucide-react";
@@ -34,14 +35,34 @@ export default function TermsPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">1. Acceptance of Terms</h2>
             <p>
-              By purchasing an access pass or using services provided by TVoxar (&quot;TVoxar IPTV&quot;), you agree to be bound by these Terms and Conditions. If you do not accept these provisions, do not activate an account on our platform.
+              By purchasing an access pass or using services provided by TVoxar (&quot;TVoxar IPTV&quot;), you agree to be bound by these Terms and Conditions. Please review our{" "}
+              <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
+                subscription plans
+              </Link>{" "}
+              and{" "}
+              <Link href="/refund-policy" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
+                Refund Policy
+              </Link>{" "}
+              prior to activating service.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">2. Permitted Account Usage &amp; Simultaneous Connections</h2>
             <p>
-              Unless explicitly specified as a multi-connection package, standard TVoxar subscription passes are provisioned for <strong className="text-white">one (1) active simultaneous stream</strong>. You may install your Xtream Codes or M3U playlist credentials across multiple devices (e.g. living room TV, smartphone, and laptop), but streaming concurrently from more than one device simultaneously on a single-screen plan will result in temporary automated stream freezing by the edge server.
+              Unless explicitly specified as a multi-connection package, standard TVoxar subscription passes are provisioned for <strong className="text-white">one (1) active simultaneous stream</strong>. You may configure your credentials across multiple{" "}
+              <Link href="/devices" className="text-primary-light hover:underline font-semibold">
+                supported devices
+              </Link>{" "}
+              (such as your{" "}
+              <Link href="/installation/firestick" className="text-primary-light hover:underline">
+                Amazon Firestick
+              </Link>{" "}
+              or{" "}
+              <Link href="/installation/android" className="text-primary-light hover:underline">
+                Android TV box
+              </Link>
+              ), but streaming concurrently from more than one device at the same time on a single-screen plan will result in automated stream freezing.
             </p>
           </section>
 
@@ -55,21 +76,41 @@ export default function TermsPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">4. Channel Lineups &amp; Service Availability</h2>
             <p>
-              While TVoxar strives to maintain 99.9% network uptime across our edge nodes, broadcast feeds originate from external satellite, terrestrial, and digital sources. Individual channel availability, audio languages, and program lineups may periodically shift or undergo scheduled maintenance.
+              While TVoxar strives to maintain 99.9% network uptime across our edge nodes, broadcast feeds originate from external satellite, terrestrial, and digital sources. Individual channel availability and program lineups may periodically shift. Browse our current{" "}
+              <Link href="/channels" className="text-primary-light hover:underline font-semibold">
+                channel line-up
+              </Link>{" "}
+              and consult our{" "}
+              <Link href="/disclaimer" className="text-primary-light hover:underline font-semibold">
+                Service Disclaimer
+              </Link>
+              .
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">5. Subscriber Responsibilities</h2>
             <p>
-              Subscribers are responsible for maintaining a reliable internet connection (minimum 15 Mbps recommended) and utilizing compatible IPTV applications on certified hardware. TVoxar provides technical setup documentation but is not liable for device hardware malfunctions or third-party software store policies.
+              Subscribers are responsible for maintaining a reliable internet connection (minimum 15 Mbps recommended) and utilizing compatible IPTV applications on certified hardware. TVoxar provides comprehensive{" "}
+              <Link href="/installation" className="text-primary-light hover:underline font-semibold">
+                installation tutorials
+              </Link>{" "}
+              and{" "}
+              <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+                24/7 technical customer support
+              </Link>
+              .
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">6. Inquiries</h2>
             <p>
-              For legal or terms clarification, reach our support team at <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span>.
+              For legal or terms clarification, reach our support team via our{" "}
+              <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+                contact page
+              </Link>{" "}
+              or email <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span>.
             </p>
           </section>
         </div>

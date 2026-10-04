@@ -17,7 +17,21 @@ export default function EntertainmentShowcase() {
               Every League, Every Match, Every PPV in 60 FPS
             </h2>
             <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-              Never miss a kick, knockout, or checkered flag. TVoxar delivers high-bitrate live feeds with dedicated backup server links for every marquee athletic event globally.
+              Never miss a kick, knockout, or checkered flag. TVoxar delivers high-bitrate live feeds with dedicated backup server links for every marquee athletic event globally. Stream major tournaments without delay using our{" "}
+              <Link
+                href="/features"
+                className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+              >
+                Anti-Freeze 9.3 infrastructure
+              </Link>{" "}
+              or browse our{" "}
+              <Link
+                href="/channels"
+                className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+              >
+                sports channel schedule
+              </Link>
+              .
             </p>
 
             <div className="grid grid-cols-2 gap-3 pt-2 text-sm text-text-secondary">
@@ -74,7 +88,21 @@ export default function EntertainmentShowcase() {
               A Massive Library of 4K Movies &amp; Binge-Worthy Series
             </h2>
             <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-              Explore thousands of on-demand movies ranging from modern cinema premieres to celebrated classics, with complete season box sets, pristine audio encoding, and multiple subtitle options.
+              Explore thousands of on-demand movies ranging from modern cinema premieres to celebrated classics, with complete season box sets, pristine audio encoding, and multiple subtitle options. Compatible with all screens in our{" "}
+              <Link
+                href="/devices"
+                className="text-white hover:text-amber-400 underline decoration-amber-400/40 underline-offset-2 transition-colors font-medium"
+              >
+                supported devices list
+              </Link>{" "}
+              and included with every{" "}
+              <Link
+                href="/pricing"
+                className="text-white hover:text-amber-400 underline decoration-amber-400/40 underline-offset-2 transition-colors font-medium"
+              >
+                TVoxar subscription pass
+              </Link>
+              .
             </p>
 
             <div className="grid grid-cols-2 gap-3 pt-2 text-sm text-text-secondary">

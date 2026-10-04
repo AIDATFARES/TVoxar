@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { siteConfig } from "../../lib/site-config";
 import { Mail, MessageCircle, Clock, Send, CheckCircle2, ShieldCheck, HelpCircle } from "lucide-react";
@@ -34,7 +35,28 @@ export default function ContactPage() {
             Get in Touch with TVoxar Support
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Need help with your device installation, custom multi-screen packages, or payment confirmation? Our technical team is standing by around the clock.
+            Need help with your device installation, custom multi-screen packages, or payment confirmation? Our technical team is standing by around the clock. You can also explore our{" "}
+            <Link
+              href="/installation"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              installation tutorials
+            </Link>
+            , browse our{" "}
+            <Link
+              href="/faq"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              knowledge base FAQ
+            </Link>
+            , or choose a plan on our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              pricing page
+            </Link>
+            .
           </p>
         </div>
 
@@ -86,7 +108,15 @@ export default function ContactPage() {
                 <span>Verification &amp; Privacy Notice</span>
               </div>
               <p>
-                TVoxar will never ask for your account password or payment card security code (CVV) in emails or chat messages. All account renewals take place strictly through our official website portal.
+                TVoxar will never ask for your account password or payment card security code (CVV) in emails or chat messages. All renewals take place strictly through our official website portal. For more information, please review our{" "}
+                <Link href="/privacy-policy" className="text-primary-light hover:underline font-semibold">
+                  Privacy Policy
+                </Link>{" "}
+                and{" "}
+                <Link href="/terms-and-conditions" className="text-primary-light hover:underline font-semibold">
+                  Terms of Service
+                </Link>
+                .
               </p>
             </div>
           </div>

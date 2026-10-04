@@ -63,7 +63,35 @@ export default function FaqPage() {
             Frequently Asked Questions
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Everything you need to know about TVoxar IPTV subscriptions, stream quality, device installation, and network optimization.
+            Everything you need to know about TVoxar IPTV{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscriptions
+            </Link>
+            , stream quality and{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              Anti-Freeze features
+            </Link>
+            ,{" "}
+            <Link
+              href="/installation"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              device installation guides
+            </Link>
+            , and{" "}
+            <Link
+              href="/blog/how-to-fix-iptv-buffering-freezing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              network optimization
+            </Link>
+            .
           </p>
         </div>
 
@@ -79,7 +107,15 @@ export default function FaqPage() {
           </div>
           <h2 className="text-xl font-bold text-white">Still Have Questions?</h2>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-xl mx-auto">
-            Our technical support specialists are available 24/7 to answer any technical or billing questions you may have before or after subscribing.
+            Our technical support specialists are available 24/7 to answer any technical or billing questions you may have before or after subscribing. You can also explore our{" "}
+            <Link href="/blog" className="text-primary-light hover:underline font-semibold">
+              IPTV troubleshooting blog
+            </Link>{" "}
+            or review our{" "}
+            <Link href="/refund-policy" className="text-primary-light hover:underline font-semibold">
+              7-day satisfaction policy
+            </Link>
+            .
           </p>
           <Link
             href="/contact"

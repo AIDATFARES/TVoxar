@@ -18,8 +18,15 @@ export default function FeaturesPage() {
     {
       icon: Zap,
       title: "TVoxar Anti-Freeze 9.3 Protocol",
-      description:
-        "Traditional IPTV streams fail when thousands of viewers tune into the same football match. TVoxar's proprietary Anti-Freeze 9.3 infrastructure solves this with intelligent edge caching and automated load distribution across Tier-1 datacenters.",
+      description: (
+        <span>
+          Traditional IPTV streams fail when thousands of viewers tune into the same match. TVoxar&apos;s proprietary Anti-Freeze 9.3 infrastructure distributes load across Tier-1 datacenters to eliminate lag. Read our{" "}
+          <Link href="/blog/how-to-fix-iptv-buffering-freezing" className="text-primary-light hover:underline font-semibold">
+            guide on fixing IPTV buffering
+          </Link>
+          .
+        </span>
+      ),
       bullets: [
         "Dynamic packet reallocation during network congestion",
         "Zero audio desynchronization on live sports",
@@ -29,8 +36,15 @@ export default function FeaturesPage() {
     {
       icon: Tv,
       title: "True 4K UHD & 60 FPS Framerates",
-      description:
-        "Fast-paced sports action requires 60 frames per second to eliminate motion blur. TVoxar prioritizes native 50/60fps feeds on major football, basketball, racing, and combat channels, accompanied by 5.1 Dolby audio decoding.",
+      description: (
+        <span>
+          Fast-paced action requires 60 frames per second to eliminate motion blur. TVoxar prioritizes native 60fps feeds on major football, basketball, and racing channels. Explore all broadcast streams in our{" "}
+          <Link href="/channels" className="text-primary-light hover:underline font-semibold">
+            live channels catalog
+          </Link>
+          .
+        </span>
+      ),
       bullets: [
         "Crisp 3840x2160 UHD feeds on supported channels",
         "True 60fps high-bitrate video encoding",
@@ -40,8 +54,19 @@ export default function FeaturesPage() {
     {
       icon: Calendar,
       title: "Interactive 7-Day Electronic Program Guide (EPG)",
-      description:
-        "Say goodbye to blank program guides. TVoxar's EPG updates automatically every 24 hours, giving you comprehensive metadata, cast details, program synopsis, and catch-up access on compatible players.",
+      description: (
+        <span>
+          Say goodbye to blank guides. TVoxar&apos;s EPG updates automatically every 24 hours with full cast details and catch-up on top players like{" "}
+          <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline">
+            TiviMate
+          </Link>{" "}
+          and{" "}
+          <Link href="/blog/iptv-smarters-pro-complete-setup-guide" className="text-primary-light hover:underline">
+            IPTV Smarters Pro
+          </Link>
+          .
+        </span>
+      ),
       bullets: [
         "Automated XMLTV and Xtream Codes EPG sync",
         "Full 7-day forward schedule guide",
@@ -51,8 +76,15 @@ export default function FeaturesPage() {
     {
       icon: Film,
       title: "Curated VOD Cinema & Box Sets",
-      description:
-        "Enjoy a premier home cinema experience with an on-demand library featuring blockbuster films and entire seasons of top television shows, categorized with poster artwork and IMDb ratings.",
+      description: (
+        <span>
+          Enjoy a premier home cinema experience with an on-demand library featuring blockbuster films and entire seasons of top shows, all included with your{" "}
+          <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
+            TVoxar IPTV pass
+          </Link>
+          .
+        </span>
+      ),
       bullets: [
         "Multi-language original audio tracks",
         "Multi-language subtitle support (SRT/CC)",
@@ -62,8 +94,15 @@ export default function FeaturesPage() {
     {
       icon: Server,
       title: "99.9% Uptime Redundant Edge Servers",
-      description:
-        "Our streaming architecture is distributed across international points of presence (PoPs). If an internet transit path degrades, your player is instantly routed to an alternative mirror without dropping the stream.",
+      description: (
+        <span>
+          Our streaming architecture is distributed across international points of presence (PoPs). If a transit path degrades, your player instantly routes to an alternative mirror. Learn more in our{" "}
+          <Link href="/faq" className="text-primary-light hover:underline font-semibold">
+            frequently asked questions
+          </Link>
+          .
+        </span>
+      ),
       bullets: [
         "Distributed datacenters across North America and Europe",
         "Proactive server health monitoring 24/7",
@@ -73,8 +112,15 @@ export default function FeaturesPage() {
     {
       icon: ShieldCheck,
       title: "Unrestricted VPN Compatibility",
-      description:
-        "While some IPTV providers lock your account to a single residential IP, TVoxar encourages the use of quality VPN services like NordVPN or ExpressVPN to protect your digital privacy and defeat ISP throttling.",
+      description: (
+        <span>
+          While some providers restrict accounts to one residential IP, TVoxar encourages using NordVPN or ExpressVPN to protect privacy and prevent ISP throttling. Discover the{" "}
+          <Link href="/blog/best-vpn-for-iptv-streaming" className="text-primary-light hover:underline font-semibold">
+            best VPNs for IPTV streaming
+          </Link>
+          .
+        </span>
+      ),
       bullets: [
         "Compatible with all major commercial VPN providers",
         "No geo-locking on account usage",
@@ -97,7 +143,21 @@ export default function FeaturesPage() {
             Advanced IPTV Features Built for Ultimate Stability
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            From our proprietary Anti-Freeze 9.3 load balancer to native 60fps sports broadcasts, explore the technology that makes TVoxar a top-tier streaming service.
+            From our proprietary Anti-Freeze 9.3 load balancer to native 60fps sports broadcasts, explore the technology that makes TVoxar a top-tier streaming service. Ready to start? Browse our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plans
+            </Link>{" "}
+            or check out our{" "}
+            <Link
+              href="/devices"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              supported device setups
+            </Link>
+            .
           </p>
         </div>
 
@@ -117,9 +177,9 @@ export default function FeaturesPage() {
                   <h2 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">
                     {item.title}
                   </h2>
-                  <p className="text-sm text-text-muted leading-relaxed mb-6">
+                  <div className="text-sm text-text-muted leading-relaxed mb-6">
                     {item.description}
-                  </p>
+                  </div>
                 </div>
 
                 <div className="pt-4 border-t border-border/80">
@@ -183,6 +243,17 @@ export default function FeaturesPage() {
               </tr>
             </tbody>
           </table>
+          <p className="text-center text-xs text-text-muted mt-6">
+            Need step-by-step guidance setting up your device? Visit our{" "}
+            <Link href="/installation" className="text-primary-light hover:underline font-semibold">
+              installation center
+            </Link>{" "}
+            or contact{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              24/7 technical support
+            </Link>
+            .
+          </p>
         </div>
 
         {/* CTA */}

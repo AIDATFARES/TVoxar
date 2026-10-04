@@ -74,7 +74,7 @@ export default function PricingCard({ plan, isFeatured = false }) {
             <span>{plan.ctaText || "Select This Pass"}</span>
           </Link>
           <p className="text-[11px] text-center text-text-muted mt-2">
-            No long-term contracts • Cancel anytime
+            No long-term contracts • <Link href="/refund-policy" className="hover:text-primary-light underline decoration-border/60 transition-colors">7-day guarantee</Link>
           </p>
         </div>
       </div>

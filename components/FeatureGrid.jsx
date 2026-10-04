@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Zap, Tv, Shield, Film, Calendar, Smartphone, Lock, Headphones } from "lucide-react";
 
 export default function FeatureGrid() {
@@ -72,7 +73,21 @@ export default function FeatureGrid() {
             Engineered for Flawless Entertainment
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Discover why cord-cutters and sports fans worldwide choose TVoxar IPTV for their daily live television and cinema viewing.
+            Discover why cord-cutters and sports fans worldwide choose TVoxar IPTV for their daily{" "}
+            <Link
+              href="/channels"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              live television and cinema
+            </Link>{" "}
+            viewing with our flexible{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plans
+            </Link>
+            .
           </p>
         </div>
 
@@ -100,6 +115,32 @@ export default function FeatureGrid() {
               </div>
             );
           })}
+        </div>
+
+        {/* Contextual Internal Link Banner */}
+        <div className="mt-12 text-center text-xs sm:text-sm text-text-secondary">
+          <span>Looking for technical specifications? Explore our full </span>
+          <Link
+            href="/features"
+            className="text-primary-light hover:underline font-semibold"
+          >
+            IPTV streaming features
+          </Link>
+          <span>, check our </span>
+          <Link
+            href="/devices"
+            className="text-primary-light hover:underline font-semibold"
+          >
+            compatible devices
+          </Link>
+          <span>, or read our </span>
+          <Link
+            href="/faq"
+            className="text-primary-light hover:underline font-semibold"
+          >
+            frequently asked questions
+          </Link>
+          <span>.</span>
         </div>
       </div>
     </section>

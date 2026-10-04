@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ChevronDown, HelpCircle } from "lucide-react";
 import JsonLd from "./JsonLd";
 
@@ -97,11 +98,21 @@ export default function FaqAccordion({ faqs = [], showCategories = false }) {
               {isOpen && (
                 <div className="px-5 sm:px-6 pb-6 pt-1 text-xs sm:text-sm text-text-secondary leading-relaxed border-t border-border/50">
                   <p>{faq.a}</p>
-                  {faq.category && (
-                    <span className="inline-block mt-3 text-[10px] font-bold uppercase tracking-wider text-primary-light bg-primary/10 px-2 py-0.5 rounded">
-                      Category: {faq.category}
-                    </span>
-                  )}
+                  <div className="flex flex-wrap items-center gap-3 mt-3.5">
+                    {faq.category && (
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-primary-light bg-primary/10 px-2 py-0.5 rounded">
+                        Category: {faq.category}
+                      </span>
+                    )}
+                    {faq.linkHref && (
+                      <Link
+                        href={faq.linkHref}
+                        className="text-xs font-semibold text-primary-light hover:text-white underline decoration-primary/40 underline-offset-2 transition-colors inline-flex items-center gap-1"
+                      >
+                        <span>{faq.linkText || "View related page →"}</span>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               )}
             </div>

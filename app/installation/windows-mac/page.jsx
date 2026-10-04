@@ -40,7 +40,21 @@ export default function WindowsMacGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Stream TVoxar on your desktop workstation or laptop running Windows 10/11 or macOS using IPTV Smarters Pro Desktop, VLC, or Web Player.
+            Stream TVoxar on your desktop workstation or laptop running Windows 10/11 or macOS using{" "}
+            <Link
+              href="/blog/iptv-smarters-pro-complete-setup-guide"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV Smarters Pro Desktop
+            </Link>
+            , VLC, or Web Player. Choose an{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV subscription plan
+            </Link>{" "}
+            to receive your Xtream Codes credentials.
           </p>
         </div>
 
@@ -104,6 +118,13 @@ export default function WindowsMacGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Need direct help configuring VLC playlist caches or desktop media ports? Message our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              technical support team
+            </Link>{" "}
+            available 24/7.
+          </p>
         </div>
 
         <CtaBanner

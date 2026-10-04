@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { siteConfig } from "../../lib/site-config";
 import { ShieldCheck } from "lucide-react";
@@ -34,7 +35,15 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">1. Introduction</h2>
             <p>
-              TVoxar (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to respecting and protecting the privacy of our subscribers visiting <strong className="text-white">www.tvoxar.top</strong>. This Privacy Policy details our protocols regarding the collection, transmission, and protection of information when you purchase a subscription or interact with our services.
+              TVoxar (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to respecting and protecting the privacy of our subscribers visiting{" "}
+              <Link href="/" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
+                www.tvoxar.top
+              </Link>
+              . This Privacy Policy details our protocols regarding the collection, transmission, and protection of information when you purchase a{" "}
+              <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
+                TVoxar IPTV subscription
+              </Link>{" "}
+              or interact with our services.
             </p>
           </section>
 
@@ -45,7 +54,19 @@ export default function PrivacyPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
               <li><strong className="text-text-secondary">Account Contact Data:</strong> Your email address and preferred subscriber username to dispatch your Xtream Codes credentials.</li>
-              <li><strong className="text-text-secondary">Technical Device Details:</strong> Optional device type (e.g. Firestick, Samsung TV, MAG MAC address) provided during setup assistance.</li>
+              <li><strong className="text-text-secondary">Technical Device Details:</strong> Optional device type (such as{" "}
+                <Link href="/installation/firestick" className="text-primary-light hover:underline font-semibold">
+                  Amazon Firestick
+                </Link>
+                ,{" "}
+                <Link href="/installation/samsung-lg-smart-tv" className="text-primary-light hover:underline font-semibold">
+                  Samsung / LG TV
+                </Link>
+                , or{" "}
+                <Link href="/installation/mag-box" className="text-primary-light hover:underline font-semibold">
+                  MAG Box MAC address
+                </Link>
+                ) provided during setup assistance.</li>
               <li><strong className="text-text-secondary">Transaction Metadata:</strong> Payment confirmation identifiers provided by third-party payment gateways. We never store credit card numbers on our servers.</li>
             </ul>
           </section>
@@ -57,7 +78,11 @@ export default function PrivacyPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
               <li>Immediate automated dispatch of your streaming playlist and credentials.</li>
-              <li>Technical troubleshooting and device configuration assistance by our customer support.</li>
+              <li>Technical troubleshooting and device configuration assistance by our{" "}
+                <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+                  customer support team
+                </Link>
+                .</li>
               <li>Critical service notifications, such as maintenance schedules or subscription expiry alerts.</li>
             </ul>
           </section>
@@ -65,7 +90,15 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">4. Zero Data Selling Commitment</h2>
             <p>
-              TVoxar does not sell, rent, monetize, or trade subscriber contact data, viewing preferences, or IP addresses to any advertising networks, data brokers, or external commercial entities.
+              TVoxar does not sell, rent, monetize, or trade subscriber contact data, viewing preferences, or IP addresses to any advertising networks, data brokers, or external commercial entities. For details on browser cookies, please review our{" "}
+              <Link href="/cookie-policy" className="text-primary-light hover:underline font-semibold">
+                Cookie Policy
+              </Link>
+              . For service usage rules, please see our{" "}
+              <Link href="/terms-and-conditions" className="text-primary-light hover:underline font-semibold">
+                Terms and Conditions
+              </Link>
+              .
             </p>
           </section>
 
@@ -79,7 +112,11 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">6. Inquiries &amp; Data Erasure</h2>
             <p>
-              Subscribers may request complete deletion of their account records at any time by contacting our privacy desk at <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span>.
+              Subscribers may request complete deletion of their account records at any time by contacting our privacy desk via our{" "}
+              <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+                contact form
+              </Link>{" "}
+              or emailing <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span>.
             </p>
           </section>
         </div>

@@ -7,22 +7,51 @@ export default function HowItWorks() {
       step: "01",
       icon: ShoppingCart,
       title: "Choose Your Plan",
-      description:
-        "Select the pass duration that fits your viewing habits—from our 1-month trial pass up to our best-value 12-month VIP plan.",
+      description: (
+        <span>
+          Select the pass duration that fits your viewing habits on our{" "}
+          <Link href="/pricing" className="text-primary-light hover:underline font-semibold">
+            subscription pricing page
+          </Link>
+          —from our starter 1-month pass up to our best-value 12-month VIP plan.
+        </span>
+      ),
     },
     {
       step: "02",
       icon: KeyRound,
       title: "Receive Credentials",
-      description:
-        "Your personalized Xtream Codes server URL, username, password, and M3U playlist link are dispatched automatically within minutes.",
+      description: (
+        <span>
+          Your personalized Xtream Codes server URL, username, password, and M3U playlist link are dispatched automatically within minutes. Need assistance? Reach our{" "}
+          <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+            support desk
+          </Link>
+          .
+        </span>
+      ),
     },
     {
       step: "03",
       icon: PlayCircle,
       title: "Install & Start Watching",
-      description:
-        "Open your preferred player (TiviMate, Smarters, or IBO Player) on your TV or phone, input your login details, and enjoy uninterrupted 4K streaming.",
+      description: (
+        <span>
+          Open your preferred player (such as{" "}
+          <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline">
+            TiviMate
+          </Link>{" "}
+          or{" "}
+          <Link href="/blog/iptv-smarters-pro-complete-setup-guide" className="text-primary-light hover:underline">
+            IPTV Smarters
+          </Link>
+          ) following our{" "}
+          <Link href="/installation" className="text-primary-light hover:underline font-semibold">
+            installation guides
+          </Link>
+          , enter your credentials, and enjoy 4K streaming.
+        </span>
+      ),
     },
   ];
 
@@ -38,7 +67,21 @@ export default function HowItWorks() {
             From Order to Live Streaming in 3 Minutes
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Getting started with TVoxar IPTV is streamlined and automated. No complicated equipment, no technician visits, and no contracts.
+            Getting started with TVoxar IPTV is streamlined and automated. No complicated equipment, no technician visits, and no contracts. Review our{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plans
+            </Link>{" "}
+            or learn more about our{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              streaming infrastructure
+            </Link>
+            .
           </p>
         </div>
 

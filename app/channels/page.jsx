@@ -73,7 +73,28 @@ export default function ChannelsPage() {
             World-Class Live Television Categories
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            TVoxar organizes television networks into intuitive, alphabetical country and genre categories. Every channel features automated EPG schedules on compatible players.
+            TVoxar organizes television networks into intuitive country and genre categories. Every channel features automated EPG schedules on{" "}
+            <Link
+              href="/blog/best-iptv-players-2026"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              compatible IPTV players
+            </Link>
+            . Check our{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              streaming features
+            </Link>{" "}
+            or pick an{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV subscription plan
+            </Link>{" "}
+            to start watching immediately.
           </p>
         </div>
 
@@ -126,7 +147,23 @@ export default function ChannelsPage() {
         <div className="my-12 p-8 rounded-2xl bg-surface border border-border max-w-4xl mx-auto text-center space-y-3">
           <h3 className="text-lg font-bold text-white">Full Electronic Program Guide (EPG) Included</h3>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
-            Our playlist servers refresh XMLTV guide data every 24 hours. When you connect via Xtream Codes on TiviMate, Smarters Pro, or IBO Player, the guide aligns automatically with your local device clock.
+            Our playlist servers refresh XMLTV guide data every 24 hours. When you connect via Xtream Codes on{" "}
+            <Link href="/blog/tivimate-premium-features-setup" className="text-primary-light hover:underline font-semibold">
+              TiviMate
+            </Link>
+            ,{" "}
+            <Link href="/blog/iptv-smarters-pro-complete-setup-guide" className="text-primary-light hover:underline font-semibold">
+              Smarters Pro
+            </Link>
+            , or Smart TV apps like{" "}
+            <Link href="/blog/smart-tv-iptv-apps-comparison" className="text-primary-light hover:underline font-semibold">
+              IBO Player Pro
+            </Link>
+            , the guide aligns automatically with your local clock. Need help? View our{" "}
+            <Link href="/installation" className="text-primary-light hover:underline font-semibold">
+              device installation tutorials
+            </Link>
+            .
           </p>
         </div>
 

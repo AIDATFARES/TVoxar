@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { siteConfig } from "../../lib/site-config";
 import { Cookie } from "lucide-react";
@@ -34,7 +35,7 @@ export default function CookiePolicyPage() {
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">1. What are Cookies?</h2>
             <p>
-              Cookies are small alphanumeric text files deposited on your browser or device when you navigate web pages. They enable web applications to maintain your session state, authenticate authorized users, and remember basic browsing preferences.
+              Cookies are small alphanumeric text files deposited on your browser or device when you navigate web pages. They enable web applications to maintain your session state, authenticate authorized users, and remember basic browsing preferences across our <Link href="/" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">streaming portal</Link>.
             </p>
           </section>
 
@@ -44,24 +45,39 @@ export default function CookiePolicyPage() {
               We maintain a minimal cookie profile. We do not use intrusive cross-site tracking cookies or third-party marketing beacons. The cookies employed on <strong className="text-white">www.tvoxar.top</strong> fall into two categories:
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-text-muted">
-              <li><strong className="text-text-secondary">Strictly Essential Cookies:</strong> Necessary to navigate the site, protect forms from CSRF attacks, and enable checkout sessions.</li>
-              <li><strong className="text-text-secondary">Functional Preference Cookies:</strong> Used to remember your UI preferences, such as selected device filter or language layout.</li>
+              <li><strong className="text-text-secondary">Strictly Essential Cookies:</strong> Necessary to navigate the site, protect forms from CSRF attacks, and enable checkout sessions for our <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">IPTV subscription packages</Link>.</li>
+              <li><strong className="text-text-secondary">Functional Preference Cookies:</strong> Used to remember your UI preferences, such as selected device filters on our <Link href="/devices" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">supported devices catalog</Link> or regional language layouts.</li>
             </ul>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">3. Managing and Disabling Cookies</h2>
             <p>
-              You can block, disable, or delete cookies at any time via your browser settings (Chrome, Firefox, Safari, Edge). Please note that blocking essential cookies may impact checkout functionality on the website.
+              You can block, disable, or delete cookies at any time via your browser settings (Chrome, Firefox, Safari, Edge). Please note that blocking essential cookies may impact checkout functionality on our <Link href="/pricing" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">pricing portal</Link>.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-lg font-bold text-white">4. Questions Regarding Cookies</h2>
             <p>
-              If you have inquiries about our cookie usage, contact us at <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span>.
+              If you have inquiries about our cookie usage, feel free to contact our team via the <Link href="/contact" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">TVoxar contact center</Link> or email us at <span className="font-mono text-primary-light">{siteConfig.supportEmail}</span>.
             </p>
           </section>
+
+          <div className="pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4 text-xs">
+            <span className="text-text-muted">Related compliance information:</span>
+            <div className="flex items-center gap-4">
+              <Link href="/privacy-policy" className="text-primary-light hover:underline font-semibold">
+                Privacy Policy &rarr;
+              </Link>
+              <Link href="/terms-and-conditions" className="text-primary-light hover:underline font-semibold">
+                Terms of Service &rarr;
+              </Link>
+              <Link href="/disclaimer" className="text-primary-light hover:underline font-semibold">
+                Legal Disclaimer &rarr;
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

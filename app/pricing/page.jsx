@@ -58,7 +58,28 @@ export default function PricingPage() {
             Transparent Pricing, Zero Hidden Fees
           </h1>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Select the pass duration that fits your schedule. Every TVoxar plan includes our complete channel line-up, high-bitrate 60fps sports, extensive VOD library, and Anti-Freeze 9.3 stability.
+            Select the pass duration that fits your schedule. Every TVoxar plan includes our complete{" "}
+            <Link
+              href="/channels"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              channel line-up
+            </Link>
+            , high-bitrate 60fps sports, extensive VOD library, and{" "}
+            <Link
+              href="/features"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              Anti-Freeze 9.3 stability
+            </Link>
+            . Compatible with all{" "}
+            <Link
+              href="/devices"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              major streaming devices
+            </Link>
+            .
           </p>
         </div>
 
@@ -78,13 +99,13 @@ export default function PricingPage() {
               <div className="text-xs text-text-muted">Automated 5-min dispatch</div>
             </div>
           </div>
-          <div className="flex items-center gap-3">
-            <ShieldCheck className="w-8 h-8 text-emerald-400 flex-shrink-0" />
+          <Link href="/refund-policy" className="flex items-center gap-3 group">
+            <ShieldCheck className="w-8 h-8 text-emerald-400 flex-shrink-0 group-hover:scale-105 transition-transform" />
             <div>
-              <div className="text-sm font-bold text-white">7-Day Guarantee</div>
-              <div className="text-xs text-text-muted">Satisfaction promised</div>
+              <div className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">7-Day Guarantee</div>
+              <div className="text-xs text-text-muted underline decoration-emerald-400/30">Satisfaction promised</div>
             </div>
-          </div>
+          </Link>
           <div className="flex items-center gap-3">
             <Lock className="w-8 h-8 text-cyan-400 flex-shrink-0" />
             <div>
@@ -92,13 +113,13 @@ export default function PricingPage() {
               <div className="text-xs text-text-muted">256-bit SSL encrypted</div>
             </div>
           </div>
-          <div className="flex items-center gap-3">
-            <Headphones className="w-8 h-8 text-purple-400 flex-shrink-0" />
+          <Link href="/contact" className="flex items-center gap-3 group">
+            <Headphones className="w-8 h-8 text-purple-400 flex-shrink-0 group-hover:scale-105 transition-transform" />
             <div>
-              <div className="text-sm font-bold text-white">24/7 Human Support</div>
-              <div className="text-xs text-text-muted">Setup &amp; tech assistance</div>
+              <div className="text-sm font-bold text-white group-hover:text-primary-light transition-colors">24/7 Human Support</div>
+              <div className="text-xs text-text-muted underline decoration-primary/30">Setup &amp; tech assistance</div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* What Every Plan Includes Section */}
@@ -108,7 +129,15 @@ export default function PricingPage() {
               The Exact Same Premium Quality on Every Pass
             </h2>
             <p className="text-text-secondary text-sm">
-              We never handicap stream resolution or channel selection on shorter passes. You get identical VIP edge routing regardless of whether you choose 1 month or 12 months.
+              We never handicap stream resolution or channel selection on shorter passes. You get identical VIP edge routing whether you choose 1 month or 12 months. Review our{" "}
+              <Link href="/features" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
+                streaming specifications
+              </Link>{" "}
+              or follow our{" "}
+              <Link href="/installation" className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium">
+                device installation guides
+              </Link>
+              .
             </p>
           </div>
 
@@ -116,37 +145,65 @@ export default function PricingPage() {
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
               <h3 className="font-bold text-white text-base mb-2">Unrestricted Channel Catalog</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                Full access to all international feeds, news networks, premium documentary channels, and kids entertainment without paywalls.
+                Full access to all international feeds, news networks, premium documentary channels, and kids entertainment without paywalls. Browse our{" "}
+                <Link href="/channels" className="text-primary-light hover:underline font-semibold">
+                  complete channel list
+                </Link>
+                .
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
               <h3 className="font-bold text-white text-base mb-2">60 FPS Live Sports Feeds</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                High framerate broadcasts for Premier League, Champions League, UFC PPVs, NFL, NBA, Formula 1, and tennis tournaments.
+                High framerate broadcasts for Premier League, Champions League, UFC PPVs, NFL, NBA, Formula 1, and tennis tournaments on any{" "}
+                <Link href="/devices" className="text-primary-light hover:underline font-semibold">
+                  supported screen
+                </Link>
+                .
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
               <h3 className="font-bold text-white text-base mb-2">Anti-Freeze 9.3 Engine</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                Adaptive bitrate load balancing guarantees that peak evening match traffic never causes stuttering or black screens.
+                Adaptive bitrate load balancing guarantees that peak evening match traffic never causes stuttering or black screens. Read about our{" "}
+                <Link href="/features" className="text-primary-light hover:underline font-semibold">
+                  Anti-Freeze 9.3 technology
+                </Link>
+                .
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
               <h3 className="font-bold text-white text-base mb-2">Dual Connection Methods</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                Receive both Xtream Codes API credentials and direct M3U Plus URLs for maximum compatibility with any player.
+                Receive both Xtream Codes API credentials and direct M3U Plus URLs for maximum compatibility. See setup tutorials for{" "}
+                <Link href="/installation/firestick" className="text-primary-light hover:underline">
+                  Firestick
+                </Link>{" "}
+                or{" "}
+                <Link href="/installation/android" className="text-primary-light hover:underline">
+                  Android TV
+                </Link>
+                .
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
               <h3 className="font-bold text-white text-base mb-2">7-Day Program Guide (EPG)</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                Clean, synchronized electronic program schedule with catch-up functionality on compatible channels and player applications.
+                Clean, synchronized electronic program schedule with catch-up functionality on compatible channels and{" "}
+                <Link href="/blog/best-iptv-players-2026" className="text-primary-light hover:underline font-semibold">
+                  top IPTV players
+                </Link>
+                .
               </p>
             </div>
             <div className="p-5 rounded-xl bg-surface/80 border border-border">
               <h3 className="font-bold text-white text-base mb-2">VPN Friendly Compatibility</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                Stream safely through NordVPN, ExpressVPN, Surfshark, or any preferred VPN provider without account restrictions.
+                Stream safely through NordVPN, ExpressVPN, Surfshark, or any preferred provider without account restrictions. Learn more in our{" "}
+                <Link href="/blog/best-vpn-for-iptv-streaming" className="text-primary-light hover:underline font-semibold">
+                  VPN streaming guide
+                </Link>
+                .
               </p>
             </div>
           </div>

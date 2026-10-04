@@ -40,7 +40,21 @@ export default function SmartTvGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Learn how to stream TVoxar directly on your Samsung Tizen or LG webOS Smart TV using IBO Player Pro or Smart IPTV without any HDMI dongles.
+            Learn how to stream TVoxar directly on your Samsung Tizen or LG webOS Smart TV using IBO Player Pro or Smart IPTV without external HDMI dongles. Before starting, activate your{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              TVoxar subscription pass
+            </Link>{" "}
+            and read our{" "}
+            <Link
+              href="/blog/smart-tv-iptv-apps-comparison"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              Smart TV IPTV apps comparison
+            </Link>
+            .
           </p>
         </div>
 
@@ -104,6 +118,17 @@ export default function SmartTvGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Having trouble uploading your TV MAC address? Reach out to our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              24/7 technical team
+            </Link>{" "}
+            for direct portal activation, or consider pairing with an{" "}
+            <Link href="/installation/firestick" className="text-primary-light hover:underline font-semibold">
+              Amazon Firestick
+            </Link>{" "}
+            for maximum app flexibility.
+          </p>
         </div>
 
         <CtaBanner

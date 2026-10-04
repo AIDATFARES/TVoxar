@@ -25,9 +25,30 @@ export default function Hero() {
               <span className="gradient-text-primary">TVoxar IPTV</span>
             </h1>
 
-            {/* Subtext */}
+            {/* Subtext with internal links */}
             <p className="text-base sm:text-lg text-text-secondary leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Access thousands of crystal-clear 4K Ultra HD live TV networks, worldwide sports events, and endless on-demand blockbusters. Engineered with multi-server redundancy for truly buffer-free streaming on any screen.
+              Access thousands of crystal-clear 4K Ultra HD{" "}
+              <Link
+                href="/channels"
+                className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+              >
+                live TV channels
+              </Link>
+              , worldwide sports events, and endless on-demand blockbusters. Engineered with{" "}
+              <Link
+                href="/features"
+                className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+              >
+                Anti-Freeze 9.3 multi-server technology
+              </Link>{" "}
+              for seamless streaming across all your{" "}
+              <Link
+                href="/devices"
+                className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+              >
+                supported devices
+              </Link>
+              .
             </p>
 
             {/* CTAs */}

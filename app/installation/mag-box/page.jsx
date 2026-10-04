@@ -40,7 +40,21 @@ export default function MagBoxGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Follow our instructions to connect your Infomir MAG receiver (250, 254, 322, 421, 524) or STB Emulator to the TVoxar portal using your MAC address.
+            Follow our instructions to connect your Infomir MAG receiver (250, 254, 322, 421, 524) or STB Emulator to the TVoxar portal using your MAC address. Select an{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              IPTV subscription pass
+            </Link>{" "}
+            and see all{" "}
+            <Link
+              href="/devices"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              supported device guides
+            </Link>
+            .
           </p>
         </div>
 
@@ -104,6 +118,13 @@ export default function MagBoxGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Encountering &quot;Your STB is blocked&quot; or portal URL handshake errors? Contact our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              MAG support specialists
+            </Link>{" "}
+            to verify your MAC address binding.
+          </p>
         </div>
 
         <CtaBanner

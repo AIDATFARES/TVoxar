@@ -40,7 +40,21 @@ export default function RokuGuidePage() {
             {guide.title}
           </h1>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-            Because Roku OS restricts sideloaded APK players, discover the two most reliable ways to stream TVoxar on Roku displays via Apple AirPlay and Android Screen Mirroring.
+            Because Roku OS restricts sideloaded APK players, discover the two most reliable ways to stream TVoxar on Roku displays via Apple AirPlay and Android Screen Mirroring. Need dedicated app support? Pair your TV with an{" "}
+            <Link
+              href="/installation/firestick"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              Amazon Firestick
+            </Link>{" "}
+            and choose a{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              TVoxar subscription plan
+            </Link>
+            .
           </p>
         </div>
 
@@ -104,6 +118,17 @@ export default function RokuGuidePage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-text-muted pt-2 border-t border-border/80">
+            Screen casting lagging on Roku? We strongly recommend connecting an{" "}
+            <Link href="/installation/firestick" className="text-primary-light hover:underline font-semibold">
+              Amazon Fire TV Stick
+            </Link>{" "}
+            or contacting our{" "}
+            <Link href="/contact" className="text-primary-light hover:underline font-semibold">
+              help desk
+            </Link>{" "}
+            for recommended casting apps.
+          </p>
         </div>
 
         <CtaBanner

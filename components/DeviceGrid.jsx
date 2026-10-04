@@ -26,7 +26,28 @@ export default function DeviceGrid() {
             Stream TVoxar on All Your Favorite Devices
           </h2>
           <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
-            Whether you watch on your living room 4K TV, computer, or smartphone while traveling, TVoxar supports your preferred streaming setup with detailed setup guides.
+            Whether you watch on your living room 4K TV, computer, or smartphone while traveling, TVoxar supports your preferred streaming setup. Browse our full{" "}
+            <Link
+              href="/devices"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              device compatibility overview
+            </Link>
+            , explore our comprehensive{" "}
+            <Link
+              href="/installation"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              installation guides hub
+            </Link>
+            , or choose a{" "}
+            <Link
+              href="/pricing"
+              className="text-white hover:text-primary-light underline decoration-primary/40 underline-offset-2 transition-colors font-medium"
+            >
+              subscription plan
+            </Link>{" "}
+            to begin.
           </p>
         </div>
 
@@ -74,7 +95,11 @@ export default function DeviceGrid() {
           <div className="text-center sm:text-left">
             <h4 className="text-lg font-bold text-white">Need personal setup assistance?</h4>
             <p className="text-xs sm:text-sm text-text-muted">
-              Our 24/7 technical team can walk you through configuring your device step-by-step.
+              Our 24/7 technical team can walk you through configuring your device step-by-step. Review our{" "}
+              <Link href="/faq" className="text-primary-light hover:underline font-semibold">
+                frequently asked questions
+              </Link>{" "}
+              or message our support desk directly.
             </p>
           </div>
           <Link
