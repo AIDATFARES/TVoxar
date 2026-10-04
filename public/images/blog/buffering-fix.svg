@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="b-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#180e29" />
+    </linearGradient>
+    <linearGradient id="fix-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" rx="16" fill="url(#b-grad)" />
+  
+  <!-- Network Speed Radar / No-Buffering Graphic -->
+  <g transform="translate(300, 110)">
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#334155" stroke-width="3" stroke-dasharray="6 6" />
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#2563eb" stroke-width="4" />
+    <circle cx="0" cy="0" r="30" fill="#0f172a" stroke="url(#fix-grad)" stroke-width="4" />
+    
+    <!-- Lightning Bolt / Zero Lag Icon -->
+    <path d="M-6 -18 L10 -4 L0 2 L8 18 L-10 4 L-2 -2 Z" fill="#00e5ff" />
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="60" y="210" width="480" height="80" rx="12" fill="#0f172a" stroke="url(#fix-grad)" stroke-width="1.5" />
+  <text x="300" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="20" fill="#ffffff">STOP IPTV BUFFERING &amp; FREEZING</text>
+  <text x="300" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#34d399">8 Proven Network &amp; Player Optimizations</text>
+</svg>

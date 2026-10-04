@@ -1,0 +1,185 @@
+import Link from "next/link";
+import Image from "next/image";
+import Breadcrumbs from "./Breadcrumbs";
+import JsonLd from "./JsonLd";
+import CtaBanner from "./CtaBanner";
+import { siteConfig } from "../lib/site-config";
+import { blogArticles } from "../lib/blog-data";
+import { Clock, Calendar, User, ArrowLeft, ArrowRight, Share2, Sparkles } from "lucide-react";
+
+export default function BlogArticleLayout({ article }) {
+  const related = blogArticles
+    .filter((a) => a.slug !== article.slug)
+    .slice(0, 3);
+
+  // Article JSON-LD Schema
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    image: `${siteConfig.domain}${article.image}`,
+    author: {
+      "@type": "Organization",
+      name: "TVoxar Engineering Team",
+      url: siteConfig.domain,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.brandName,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.domain}/logo.svg`,
+      },
+    },
+    datePublished: "2026-03-15T08:00:00+00:00",
+    dateModified: "2026-10-02T12:00:00+00:00",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteConfig.domain}/blog/${article.slug}`,
+    },
+  };
+
+  return (
+    <article className="pt-24 pb-16">
+      <JsonLd data={articleSchema} />
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Breadcrumbs
+          items={[
+            { label: "Blog", href: "/blog" },
+            { label: article.title, href: `/blog/${article.slug}` },
+          ]}
+        />
+
+        {/* Back Link */}
+        <div className="my-6">
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-2 text-xs font-semibold text-text-muted hover:text-primary-light transition-colors"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Back to All Articles</span>
+          </Link>
+        </div>
+
+        {/* Article Header */}
+        <header className="space-y-4 my-6">
+          <div className="flex flex-wrap items-center gap-3 text-xs">
+            <span className="px-3 py-1 rounded-full bg-primary/15 text-primary-light font-bold">
+              {article.category}
+            </span>
+            <span className="flex items-center gap-1 text-text-muted">
+              <Clock className="w-3.5 h-3.5" />
+              {article.readTime}
+            </span>
+            <span className="flex items-center gap-1 text-text-muted">
+              <Calendar className="w-3.5 h-3.5" />
+              {article.date}
+            </span>
+            <span className="flex items-center gap-1 text-text-muted">
+              <User className="w-3.5 h-3.5" />
+              {article.author}
+            </span>
+          </div>
+
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+            {article.title}
+          </h1>
+
+          <p className="text-base sm:text-lg text-text-secondary leading-relaxed pt-2">
+            {article.excerpt}
+          </p>
+        </header>
+
+        {/* Featured Visual */}
+        <div className="my-8 rounded-2xl overflow-hidden border border-border bg-surface shadow-card">
+          <Image
+            src={article.image}
+            alt={article.title}
+            width={800}
+            height={450}
+            priority
+            className="w-full h-auto object-cover"
+          />
+        </div>
+
+        {/* Table of Contents */}
+        {article.headings && article.headings.length > 0 && (
+          <div className="my-8 p-6 rounded-2xl bg-surface/60 border border-border">
+            <span className="text-xs font-bold uppercase tracking-wider text-text-muted block mb-3">
+              Table of Contents:
+            </span>
+            <ul className="space-y-1.5 text-xs sm:text-sm text-text-secondary">
+              {article.headings.map((h) => (
+                <li key={h.id}>
+                  <a
+                    href={`#${h.id}`}
+                    className="hover:text-primary-light transition-colors flex items-center gap-2"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary/60" />
+                    <span>{h.text}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Article Body Content */}
+        <div className="my-10 text-text-secondary text-sm sm:text-base leading-relaxed space-y-6">
+          <div
+            className="prose prose-invert max-w-none space-y-6"
+            dangerouslySetInnerHTML={{
+              __html: article.content
+                .replace(/\n\n/g, "<p class='leading-relaxed text-text-secondary mb-4'></p>")
+                .replace(/### (.*)/g, "<h3 class='text-xl sm:text-2xl font-bold text-white mt-8 mb-3'>$1</h3>")
+                .replace(/## (.*)/g, "<h2 class='text-2xl sm:text-3xl font-extrabold text-white mt-10 mb-4'>$1</h2>")
+                .replace(/\*\*(.*?)\*\*/g, "<strong class='text-white font-semibold'>$1</strong>")
+                .replace(/---/g, "<hr class='border-border my-8' />"),
+            }}
+          />
+        </div>
+
+        {/* Related Articles */}
+        <div className="my-16 pt-12 border-t border-border">
+          <h2 className="text-2xl font-bold text-white mb-6">
+            Related Guides &amp; Tutorials
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {related.map((rel) => (
+              <div
+                key={rel.slug}
+                className="bg-surface/80 border border-border hover:border-primary/50 rounded-xl p-5 flex flex-col justify-between transition-all hover:shadow-card group"
+              >
+                <div>
+                  <span className="text-[10px] font-bold text-primary-light uppercase tracking-wider">
+                    {rel.category}
+                  </span>
+                  <h3 className="text-sm font-bold text-white group-hover:text-primary-light transition-colors line-clamp-2 mt-1 mb-2">
+                    <Link href={`/blog/${rel.slug}`}>{rel.title}</Link>
+                  </h3>
+                </div>
+                <Link
+                  href={`/blog/${rel.slug}`}
+                  className="inline-flex items-center gap-1 text-xs font-bold text-primary-light pt-2"
+                >
+                  <span>Read Guide</span>
+                  <ArrowRight className="w-3 h-3" />
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* CTA */}
+        <CtaBanner
+          title="Enhance Your IPTV Streaming Experience"
+          description="Get premium 4K channels and sports feeds with TVoxar's Anti-Freeze 9.3 network."
+          buttonText="Explore Subscription Plans"
+          buttonHref="/pricing"
+        />
+      </div>
+    </article>
+  );
+}

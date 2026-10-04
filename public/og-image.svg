@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0c1322" />
+      <stop offset="100%" stop-color="#070a13" />
+    </linearGradient>
+    <linearGradient id="cyan-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <radialGradient id="glow-center" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#070a13" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-grad)" />
+  <circle cx="600" cy="260" r="450" fill="url(#glow-center)" />
+
+  <!-- Grid overlay -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Main Emblem -->
+  <g transform="translate(535, 110)">
+    <rect x="0" y="0" width="130" height="120" rx="30" fill="#0d1527" stroke="url(#cyan-blue)" stroke-width="5" />
+    <path d="M40 0 L25 -15" stroke="#00e5ff" stroke-width="5" stroke-linecap="round" />
+    <path d="M90 0 L105 -15" stroke="#7c3aed" stroke-width="5" stroke-linecap="round" />
+    <path d="M50 35 L90 60 L50 85 Z" fill="url(#cyan-blue)" />
+    <circle cx="65" cy="102" r="4" fill="#00e5ff" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="600" y="300" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="76" letter-spacing="4" fill="#ffffff">
+    TV<tspan fill="url(#cyan-blue)">OXAR</tspan> IPTV
+  </text>
+
+  <!-- Subheading -->
+  <text x="600" y="360" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="28" letter-spacing="1.5" fill="#94a3b8">
+    Next-Gen 4K &amp; FHD IPTV Streaming Service
+  </text>
+
+  <!-- Feature Pill Tags -->
+  <g transform="translate(600, 430)" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">
+    <!-- Tag 1 -->
+    <rect x="-370" y="0" width="160" height="42" rx="21" fill="#131d33" stroke="#2563eb" stroke-width="1.5" />
+    <text x="-290" y="27" fill="#38bdf8">Ultra HD 4K</text>
+
+    <!-- Tag 2 -->
+    <rect x="-180" y="0" width="170" height="42" rx="21" fill="#131d33" stroke="#2563eb" stroke-width="1.5" />
+    <text x="-95" y="27" fill="#38bdf8">Anti-Freeze 9.3</text>
+
+    <!-- Tag 3 -->
+    <rect x="20" y="0" width="160" height="42" rx="21" fill="#131d33" stroke="#2563eb" stroke-width="1.5" />
+    <text x="100" y="27" fill="#38bdf8">Live Sports &amp; PPV</text>
+
+    <!-- Tag 4 -->
+    <rect x="210" y="0" width="160" height="42" rx="21" fill="#131d33" stroke="#2563eb" stroke-width="1.5" />
+    <text x="290" y="27" fill="#38bdf8">Multi-Device</text>
+  </g>
+
+  <!-- Canonical URL Badge -->
+  <text x="600" y="550" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="22" letter-spacing="2" fill="#64748b">
+    WWW.TVOXAR.TOP
+  </text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stv-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1128" />
+      <stop offset="100%" stop-color="#001f3f" />
+    </linearGradient>
+    <linearGradient id="stv-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" rx="16" fill="url(#stv-grad)" />
+
+  <!-- Smart TV silhouette -->
+  <g transform="translate(160, 35)">
+    <rect x="0" y="0" width="280" height="150" rx="8" fill="#131d33" stroke="#3b82f6" stroke-width="2" />
+    <rect x="100" y="150" width="80" height="12" fill="#334155" />
+    <rect x="70" y="162" width="140" height="6" rx="3" fill="#64748b" />
+    
+    <!-- Samsung & LG logo icons inside TV -->
+    <rect x="30" y="45" width="95" height="55" rx="6" fill="#1e293b" />
+    <text x="77" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#60a5fa">SAMSUNG</text>
+
+    <rect x="155" y="45" width="95" height="55" rx="6" fill="#1e293b" />
+    <text x="202" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#f43f5e">LG webOS</text>
+  </g>
+
+  <!-- Banner -->
+  <rect x="60" y="220" width="480" height="75" rx="12" fill="#0f172a" stroke="url(#stv-accent)" stroke-width="1.5" />
+  <text x="300" y="252" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="19" fill="#ffffff">SMART TV APPS: SAMSUNG &amp; LG</text>
+  <text x="300" y="278" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#38bdf8">IBO Player Pro vs Smart IPTV vs Nanomid</text>
+</svg>

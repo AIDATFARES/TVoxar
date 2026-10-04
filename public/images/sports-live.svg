@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sports-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="live-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="20" fill="url(#sports-bg)" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Live Badge -->
+  <rect x="30" y="30" width="100" height="28" rx="6" fill="#ef4444" />
+  <circle cx="48" cy="44" r="5" fill="#ffffff" />
+  <text x="60" y="49" font-family="system-ui, sans-serif" font-weight="900" font-size="13" fill="#ffffff">LIVE 60FPS</text>
+
+  <!-- Big Match Stadium Graphic Mockup -->
+  <g transform="translate(30, 80)">
+    <!-- Pitch / Stadium arc -->
+    <rect x="0" y="0" width="540" height="180" rx="14" fill="#0f172a" stroke="#2563eb" stroke-width="1.5" />
+    <circle cx="270" cy="90" r="50" fill="none" stroke="#334155" stroke-width="2" />
+    <line x1="270" y1="0" x2="270" y2="180" stroke="#334155" stroke-width="2" />
+
+    <!-- Team 1 Badge -->
+    <g transform="translate(100, 50)">
+      <circle cx="35" cy="35" r="32" fill="#1e293b" stroke="#38bdf8" stroke-width="3" />
+      <text x="18" y="42" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#38bdf8">UCL</text>
+      <text x="35" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#ffffff">Manchester</text>
+    </g>
+
+    <!-- VS Badge -->
+    <g transform="translate(250, 70)">
+      <rect x="0" y="0" width="40" height="30" rx="6" fill="#dc2626" />
+      <text x="10" y="21" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#ffffff">VS</text>
+    </g>
+
+    <!-- Team 2 Badge -->
+    <g transform="translate(370, 50)">
+      <circle cx="35" cy="35" r="32" fill="#1e293b" stroke="#a855f7" stroke-width="3" />
+      <text x="18" y="42" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#a855f7">MAD</text>
+      <text x="35" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#ffffff">Madrid</text>
+    </g>
+  </g>
+
+  <!-- League badges bar -->
+  <g transform="translate(30, 280)">
+    <rect x="0" y="0" width="125" height="40" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="62" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#38bdf8">Premier League</text>
+
+    <rect x="138" y="0" width="125" height="40" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="200" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#a855f7">Champions League</text>
+
+    <rect x="276" y="0" width="125" height="40" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="338" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#f59e0b">UFC / Boxing PPV</text>
+
+    <rect x="414" y="0" width="125" height="40" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="476" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#10b981">Formula 1 &amp; NBA</text>
+  </g>
+</svg>

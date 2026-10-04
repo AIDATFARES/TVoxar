@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vod-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#1e102a" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="20" fill="url(#vod-bg)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- 4K Cinema Badge -->
+  <rect x="30" y="30" width="130" height="28" rx="6" fill="url(#gold-grad)" />
+  <text x="95" y="49" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="#0f172a">4K CINEMA &amp; VOD</text>
+
+  <!-- Cinema Posters Row -->
+  <g transform="translate(30, 80)">
+    <!-- Poster 1: Sci-Fi Blockbuster -->
+    <rect x="0" y="0" width="120" height="175" rx="8" fill="#131d33" stroke="#3b82f6" stroke-width="1.5" />
+    <rect x="10" y="10" width="100" height="90" rx="6" fill="#1e3a8a" />
+    <circle cx="60" cy="55" r="24" fill="#0284c7" />
+    <text x="60" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#ffffff">COSMOS 4K</text>
+    <text x="60" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#38bdf8">Action • HDR</text>
+    <rect x="35" y="152" width="50" height="15" rx="3" fill="#2563eb" />
+    <text x="60" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#ffffff">WATCH</text>
+
+    <!-- Poster 2: Epic Drama -->
+    <rect x="140" y="0" width="120" height="175" rx="8" fill="#131d33" stroke="#8b5cf6" stroke-width="1.5" />
+    <rect x="150" y="10" width="100" height="90" rx="6" fill="#4c1d95" />
+    <circle cx="200" cy="55" r="24" fill="#7c3aed" />
+    <text x="200" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#ffffff">KINGDOM</text>
+    <text x="200" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#c084fc">Series • S03</text>
+    <rect x="175" y="152" width="50" height="15" rx="3" fill="#7c3aed" />
+    <text x="200" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#ffffff">WATCH</text>
+
+    <!-- Poster 3: Crime Thriller -->
+    <rect x="280" y="0" width="120" height="175" rx="8" fill="#131d33" stroke="#ef4444" stroke-width="1.5" />
+    <rect x="290" y="10" width="100" height="90" rx="6" fill="#7f1d1d" />
+    <circle cx="340" cy="55" r="24" fill="#dc2626" />
+    <text x="340" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#ffffff">SHADOW RUN</text>
+    <text x="340" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#f87171">Thriller • 4K</text>
+    <rect x="315" y="152" width="50" height="15" rx="3" fill="#dc2626" />
+    <text x="340" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#ffffff">WATCH</text>
+
+    <!-- Poster 4: Adventure -->
+    <rect x="420" y="0" width="120" height="175" rx="8" fill="#131d33" stroke="#10b981" stroke-width="1.5" />
+    <rect x="430" y="10" width="100" height="90" rx="6" fill="#064e3b" />
+    <circle cx="480" cy="55" r="24" fill="#059669" />
+    <text x="480" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#ffffff">HORIZON</text>
+    <text x="480" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#34d399">Adventure • 4K</text>
+    <rect x="455" y="152" width="50" height="15" rx="3" fill="#059669" />
+    <text x="480" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#ffffff">WATCH</text>
+  </g>
+
+  <!-- Feature Tags -->
+  <g transform="translate(30, 280)">
+    <rect x="0" y="0" width="165" height="42" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="82" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#38bdf8">Multi-Subtitles &amp; Audio</text>
+
+    <rect x="185" y="0" width="170" height="42" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="270" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#a855f7">Dolby 5.1 &amp; Atmos Sound</text>
+
+    <rect x="375" y="0" width="165" height="42" rx="8" fill="#131d33" stroke="#334155" stroke-width="1" />
+    <text x="457" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#10b981">Updated Weekly</text>
+  </g>
+</svg>

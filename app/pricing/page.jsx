@@ -1,0 +1,178 @@
+import Link from "next/link";
+import Breadcrumbs from "../../components/Breadcrumbs";
+import PricingCard from "../../components/PricingCard";
+import FaqAccordion from "../../components/FaqAccordion";
+import CtaBanner from "../../components/CtaBanner";
+import { siteConfig } from "../../lib/site-config";
+import { Check, ShieldCheck, Zap, Headphones, Lock, Clock } from "lucide-react";
+
+export const metadata = {
+  title: "IPTV Subscription Plans & Pricing - TVoxar IPTV",
+  description:
+    "Explore transparent TVoxar IPTV pricing plans. Choose from 1-month, 3-month, 6-month, or 12-month passes with 4K UHD channels, live sports, and instant activation.",
+  alternates: {
+    canonical: `${siteConfig.domain}/pricing`,
+  },
+};
+
+export default function PricingPage() {
+  const pricingFaqs = [
+    {
+      q: "How soon do I receive my TVoxar IPTV credentials after ordering?",
+      a: "Orders are processed through our automated provisioning system. Your Xtream Codes login credentials (portal URL, username, and password) and M3U playlist link are sent directly to your contact email within 5 to 15 minutes of payment confirmation.",
+      category: "Delivery",
+    },
+    {
+      q: "Does the service renew automatically or charge my card recurringly?",
+      a: "No. All TVoxar passes are non-recurring, one-time payments. You will never be billed automatically without your explicit consent. When your pass approaches expiration, we send a reminder email allowing you to renew if you wish.",
+      category: "Billing",
+    },
+    {
+      q: "Can I upgrade my plan or add additional simultaneous screens?",
+      a: "Yes. If you wish to upgrade to a longer pass duration or add multi-screen access for family members, simply contact our support team with your existing username and we will adjust your account without interrupting your favorites or settings.",
+      category: "Plans",
+    },
+    {
+      q: "What payment methods are supported for TVoxar subscriptions?",
+      a: "We accept all major credit and debit cards, secure PayPal checkout, and leading cryptocurrency gateways. All payments are encrypted through 256-bit SSL protocols.",
+      category: "Billing",
+    },
+    {
+      q: "What is your refund policy if the service does not work on my device?",
+      a: "We offer a 7-day money-back guarantee. If you encounter technical setup difficulties that our 24/7 technical team is unable to resolve, you can request a full refund within 7 days of your purchase.",
+      category: "Guarantees",
+    },
+  ];
+
+  return (
+    <div className="pt-24 pb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Breadcrumbs items={[{ label: "Subscription Plans", href: "/pricing" }]} />
+
+        {/* Page Hero */}
+        <div className="text-center max-w-3xl mx-auto my-12 space-y-4">
+          <span className="text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 border border-primary/20 px-3 py-1 rounded-full">
+            Official TVoxar Subscriptions
+          </span>
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+            Transparent Pricing, Zero Hidden Fees
+          </h1>
+          <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
+            Select the pass duration that fits your schedule. Every TVoxar plan includes our complete channel line-up, high-bitrate 60fps sports, extensive VOD library, and Anti-Freeze 9.3 stability.
+          </p>
+        </div>
+
+        {/* Pricing Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-16">
+          {siteConfig.pricingPlans.map((plan) => (
+            <PricingCard key={plan.id} plan={plan} isFeatured={plan.popular} />
+          ))}
+        </div>
+
+        {/* Trust Badges Strip */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 my-16 p-8 rounded-2xl bg-surface border border-border">
+          <div className="flex items-center gap-3">
+            <Clock className="w-8 h-8 text-primary-light flex-shrink-0" />
+            <div>
+              <div className="text-sm font-bold text-white">Instant Delivery</div>
+              <div className="text-xs text-text-muted">Automated 5-min dispatch</div>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <ShieldCheck className="w-8 h-8 text-emerald-400 flex-shrink-0" />
+            <div>
+              <div className="text-sm font-bold text-white">7-Day Guarantee</div>
+              <div className="text-xs text-text-muted">Satisfaction promised</div>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <Lock className="w-8 h-8 text-cyan-400 flex-shrink-0" />
+            <div>
+              <div className="text-sm font-bold text-white">Secure Checkout</div>
+              <div className="text-xs text-text-muted">256-bit SSL encrypted</div>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <Headphones className="w-8 h-8 text-purple-400 flex-shrink-0" />
+            <div>
+              <div className="text-sm font-bold text-white">24/7 Human Support</div>
+              <div className="text-xs text-text-muted">Setup &amp; tech assistance</div>
+            </div>
+          </div>
+        </div>
+
+        {/* What Every Plan Includes Section */}
+        <div className="my-20 bg-background-secondary/70 border border-border rounded-3xl p-8 sm:p-12">
+          <div className="max-w-3xl mx-auto text-center mb-10 space-y-3">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              The Exact Same Premium Quality on Every Pass
+            </h2>
+            <p className="text-text-secondary text-sm">
+              We never handicap stream resolution or channel selection on shorter passes. You get identical VIP edge routing regardless of whether you choose 1 month or 12 months.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="p-5 rounded-xl bg-surface/80 border border-border">
+              <h3 className="font-bold text-white text-base mb-2">Unrestricted Channel Catalog</h3>
+              <p className="text-xs text-text-muted leading-relaxed">
+                Full access to all international feeds, news networks, premium documentary channels, and kids entertainment without paywalls.
+              </p>
+            </div>
+            <div className="p-5 rounded-xl bg-surface/80 border border-border">
+              <h3 className="font-bold text-white text-base mb-2">60 FPS Live Sports Feeds</h3>
+              <p className="text-xs text-text-muted leading-relaxed">
+                High framerate broadcasts for Premier League, Champions League, UFC PPVs, NFL, NBA, Formula 1, and tennis tournaments.
+              </p>
+            </div>
+            <div className="p-5 rounded-xl bg-surface/80 border border-border">
+              <h3 className="font-bold text-white text-base mb-2">Anti-Freeze 9.3 Engine</h3>
+              <p className="text-xs text-text-muted leading-relaxed">
+                Adaptive bitrate load balancing guarantees that peak evening match traffic never causes stuttering or black screens.
+              </p>
+            </div>
+            <div className="p-5 rounded-xl bg-surface/80 border border-border">
+              <h3 className="font-bold text-white text-base mb-2">Dual Connection Methods</h3>
+              <p className="text-xs text-text-muted leading-relaxed">
+                Receive both Xtream Codes API credentials and direct M3U Plus URLs for maximum compatibility with any player.
+              </p>
+            </div>
+            <div className="p-5 rounded-xl bg-surface/80 border border-border">
+              <h3 className="font-bold text-white text-base mb-2">7-Day Program Guide (EPG)</h3>
+              <p className="text-xs text-text-muted leading-relaxed">
+                Clean, synchronized electronic program schedule with catch-up functionality on compatible channels and player applications.
+              </p>
+            </div>
+            <div className="p-5 rounded-xl bg-surface/80 border border-border">
+              <h3 className="font-bold text-white text-base mb-2">VPN Friendly Compatibility</h3>
+              <p className="text-xs text-text-muted leading-relaxed">
+                Stream safely through NordVPN, ExpressVPN, Surfshark, or any preferred VPN provider without account restrictions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Pricing FAQs */}
+        <div className="my-20">
+          <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+              Pricing &amp; Subscription Questions
+            </h2>
+            <p className="text-xs sm:text-sm text-text-secondary">
+              Everything you need to know about payments, activations, and renewals.
+            </p>
+          </div>
+          <FaqAccordion faqs={pricingFaqs} />
+        </div>
+
+        {/* Final CTA */}
+        <CtaBanner
+          title="Start Watching with TVoxar Today"
+          description="Choose your preferred subscription plan and get your login credentials dispatched within minutes."
+          buttonText="Select Your Plan Now"
+          buttonHref="#pricing"
+        />
+      </div>
+    </div>
+  );
+}

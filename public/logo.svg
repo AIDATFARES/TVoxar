@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 76" fill="none" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tvoxar-cyan-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="tvoxar-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2" />
+    </linearGradient>
+    <filter id="logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Modern TV Hologram Emblem -->
+  <g transform="translate(4, 6)">
+    <!-- Outer TV Shield / Hex-Frame -->
+    <rect x="4" y="6" width="54" height="52" rx="14" fill="#0d1527" stroke="url(#tvoxar-cyan-blue)" stroke-width="2.5" />
+    
+    <!-- Neon Corner Antennas -->
+    <path d="M19 6 L12 0" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M43 6 L50 0" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round" />
+    
+    <!-- Streaming Play Wave Signal inside Screen -->
+    <path d="M23 20 L43 32 L23 44 Z" fill="url(#tvoxar-cyan-blue)" filter="url(#logo-glow)" />
+    
+    <!-- Speed Arc lines -->
+    <path d="M46 22 C49 26 49 38 46 42" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <path d="M51 17 C56 23 56 41 51 47" stroke="#818cf8" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+    
+    <!-- Power indicator dot -->
+    <circle cx="31" cy="51" r="2" fill="#00e5ff" />
+  </g>
+
+  <!-- TVOXAR Brand Name Text -->
+  <text x="74" y="44" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" letter-spacing="1.5" fill="#ffffff">
+    TV<tspan fill="url(#tvoxar-cyan-blue)">OXAR</tspan>
+  </text>
+  
+  <!-- IPTV Badge -->
+  <rect x="75" y="49" width="48" height="15" rx="3.5" fill="#1e293b" stroke="url(#tvoxar-cyan-blue)" stroke-width="1" />
+  <text x="80" y="60.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9.5" letter-spacing="2" fill="#38bdf8">
+    IPTV
+  </text>
+  
+  <!-- Tagline -->
+  <text x="130" y="60.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="9" letter-spacing="1.2" fill="#94a3b8">
+    NEXT-GEN STREAMING
+  </text>
+</svg>
