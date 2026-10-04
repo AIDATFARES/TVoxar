@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Zap, ShieldCheck, ArrowRight, CheckCircle2 } from "lucide-react";
+import { siteConfig } from "../lib/site-config";
 
 export default function CtaBanner({
   title = "Ready to Elevate Your Viewing with TVoxar IPTV?",
@@ -37,12 +38,14 @@ export default function CtaBanner({
                 <span>{buttonText}</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link
-                href="/installation"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-sm text-text-primary bg-surface hover:bg-surface-hover border border-border transition-colors"
+              <a
+                href={siteConfig.whatsappTrialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-sm text-text-primary bg-surface hover:bg-surface-hover border border-border hover:border-[#25D366]/50 hover:text-white transition-colors"
               >
-                <span>View Setup Guides</span>
-              </Link>
+                <span>Get a free trial</span>
+              </a>
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6 pt-6 text-xs text-text-muted">
