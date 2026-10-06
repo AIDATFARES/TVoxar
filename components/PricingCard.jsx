@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Check, Zap, Sparkles } from "lucide-react";
+import { siteConfig } from "../lib/site-config";
 
 export default function PricingCard({ plan, isFeatured = false }) {
   return (
@@ -65,7 +66,7 @@ export default function PricingCard({ plan, isFeatured = false }) {
           <a
             href={
               plan.checkoutUrl ||
-              `https://wa.me/447882781998?text=${encodeURIComponent(
+              `https://wa.me/${(siteConfig.whatsapp || "+213552069874").replace(/[^0-9]/g, "")}?text=${encodeURIComponent(
                 `Hello TVoxar, I would like to order the ${plan.name} (${plan.price}).`
               )}`
             }

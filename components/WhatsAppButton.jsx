@@ -8,7 +8,7 @@ export default function WhatsAppButton() {
 
   const whatsappHref =
     siteConfig.whatsappUrl ||
-    "https://wa.me/447882781998?text=Hello%20TVoxar%20Support%2C%20I%20have%20a%20question%20about%20your%20IPTV%20service.";
+    "https://wa.me/213552069874?text=Hello%20TVoxar%20Support%2C%20I%20have%20a%20question%20about%20your%20IPTV%20service.";
 
   return (
     <aside
@@ -44,7 +44,7 @@ export default function WhatsAppButton() {
           href={whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Chat with TVoxar Support on WhatsApp (+447882781998)"
+          aria-label={`Chat with TVoxar Support on WhatsApp (${siteConfig.whatsapp || "+213552069874"})`}
           className="relative flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#25D366] hover:bg-[#20ba59] active:scale-95 text-white shadow-2xl shadow-[#25D366]/50 transition-all duration-300 hover:scale-105 group"
         >
           {/* Authentic WhatsApp Icon */}
